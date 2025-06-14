@@ -19,22 +19,22 @@ label start:
 
     window hide
     nvl clear  
-    sn "当我还是个孩子的时候，我在圣诞节愉快地凝视窗外，那时的我从未想过，像雪这样神奇而美妙的东西会造成如此大的破坏。" with Dissolve(1)
-    sn "我根本看不清眼前的路途，每当我抬脚迈步，靴子都会深深陷入雪中，一种致命的纯白紧紧地粘在我身上。"
-    sn "如果我在风雪中回头，我会看到每次迈步留下的靴印立刻就被蓬松的风雪掩埋，仿佛我一开始就不在那里。"
-    sn "在这样的风雪中，我几乎无处可去，迷茫之后，我决定去看看她是否在家。"
+    sn "When I was a child, happily gazing out the window on Christmas, I never imagined something as magical and wonderful as snow causing so much destruction." with Dissolve(1)
+    sn "I could barely see where I was going, and my feet sunk each time I took a step, a deathly whiteness clinging to me."
+    sn "If I were to look behind me, I would have seen my footsteps filled immediately after each step as if I hadn't been there in the first place."
+    sn "Wracking my brains for a destination, I settled on the obvious choice of checking if she was home."
     nvl clear  
-    sn "我仍然记得去她家的路。尽管在这样的风雪中很难看得清四周，甚至很多我们小时候知道的事物都消失了，我只能疲惫的迈步向她家的方向。"
-    sn "两个街区的距离并不太远。"
-    sn "也许我只是因为睡的太久太沉而行动迟缓，疲惫虚弱，又也许真的是因为这严酷的天气让我无法前进。"
-    sn "我很怀念那些事物，我们曾经最喜欢的树，路边的旧邮箱，他们都去哪里了？我们熟悉的社区什么时候变成了这样？"
+    sn "I still knew the way to her house. Half blind, even knowing that many of the landmarks we knew as children had vanished, I pushed my heavy feet toward where she lived."
+    sn "Two blocks went by as an eternity."
+    sn "Perhaps I was just slow and weak after my long hibernation, or perhaps it really was this anomaly of weather that was hindering my path."
+    sn "I wondered where our favorite tree had gone, where the old mailbox had disappeared to. Since when had our familiar neighborhood changed so much?"
     nvl clear   
     nvl hide Dissolve(0.3)
     show sanna standing jacket concerned open at t32
-    Sanna "也许我早就迷路了……" with Dissolve(0.3)
+    Sanna "Maybe this isn't the right way at all..." with Dissolve(0.3)
 
 
-    sn "但当我开始自我怀疑时，终于，她的房子就在前面了。" with Dissolve(0.3)
+    sn "But as soon as I started to doubt myself, I finally caught a glimpse of her house." with Dissolve(0.3)
     nvl clear   
     nvl hide Dissolve(0.3)
     stop music fadeout(6)
@@ -48,58 +48,58 @@ label start:
 
     pause 2
 
-    sn "这是我有生以来第一次敲门。" with Dissolve(0.3)
-    sn "我把手放在门上的声音空洞地回响着。"
-    sn "长时间的沉默。我又敲了一下。"
-    sn "没有人回答。""
+    sn "For the first time in forever, I was the one knocking on a door." with Dissolve(0.3)
+    sn "The sound of my hand on the door echoed hollowly."
+    sn "A long silence. I knocked again."
+    sn "No one answered."
     nvl clear 
-    sn "她家的门铃早就坏了，从来没有人想过要修好它。我所能做的就是再敲几下，站在原地时感觉寒冷袭来。"
-    sn "她可能没有听到我的声音。如果她在家，她有可能在咆哮的暴风雪中没有听到我微弱的敲门声。"
-    sn "没有人回答，所以我又敲了敲门，这次更疯狂了。"
+    sn "Her family's doorbell had long been broken, and no one had ever thought to fix it. All I could do was knock a few more times, feeling the cold get to me as I stood in place."
+    sn "She probably didn't hear me. If she was home at all, there was a chance that she didn't hear my weak knocks amidst the roaring blizzard."
+    sn "No one answered, so I knocked again, this time more frantically."
     nvl clear   
     nvl hide Dissolve(0.3)
 
     show sanna standing jacket concerned open at t32
-    Sanna "来吧，该死的。" with Dissolve(0.3)
+    Sanna "Come on. Damn it." with Dissolve(0.3)
     Sanna "..."
 
-    sn "别无选择。我开始转身离开。" with Dissolve(0.3)
-    sn "突然，一道闪光挡住了我的去路。金属。一把钥匙。"
-    sn "备用钥匙。真不敢相信我忘了。"
-    sn "我蹲在地上挖雪，挖，挖，即使雪埋了我的努力，直到我发现了她前门旁边的小隔间，备用钥匙就放在那里。"
-    sn "我小心翼翼地打开它。令我欣慰的是，钥匙就在那里。"
+    sn "There was no other choice. I began to turn around to leave." with Dissolve(0.3)
+    sn "Suddenly a flash of light stopped me in my tracks. Metal. A key."
+    sn "The spare key. I can't believe I forgot."
+    sn "I squatted near the ground to dig through the snow, digging, digging even as the snow buried my efforts, till I uncovered the little compartment by her front door where that spare key laid."
+    sn "I gingerly opened it. To my relief, there the key was."
     nvl clear 
-    sn "我眯起眼睛把它捡起来。钥匙仍然放在原来的地方，甚至保留了我们小时候用永久性记号笔潦草地画的愚蠢的画。"
-    sn "我分不清这幅画是猫还是鸟。"
+    sn "I squinted as I picked it up. The key, which had still been in the same old place, even retained the silly drawing we scribbled onto it with permanent marker as children."
+    sn "I couldn't tell if the picture was a cat or a bird."
     sn "Click."
-    sn "门用备用钥匙开锁了。我把它塞回原处，也许将来会再次为Freya服务。然后，我进了屋子。"
+    sn "The door unlocked with the spare key. I tucked it back where it belonged, where it would perhaps serve Freya again in the future. Then, I entered the house."
     nvl clear   
     nvl hide Dissolve(0.3)
 
 
 
-    Sanna "你好？" with Dissolve(0.3)
-    Sanna determined "有人在家吗？"
+    Sanna "Hello?" with Dissolve(0.3)
+    Sanna determined "Is anybody home?"
 
-    sn "我的声音在房子里回荡。没有人回答。" with Dissolve(0.3)
-    sn "我知道这不可能那么容易。"
-    sn "在我花了一点时间再次热身后，远离了纯白色的降水，我回到外面继续我的旅程。"
+    sn "My voice reverberated throughout the house. There was no answer." with Dissolve(0.3)
+    sn "I knew it couldn't have been that easy."
+    sn "After I spent a little bit warming myself up again, away from the pure white precipitation, I stepped back outside to resume my journey."
     nvl clear
-    sn "下一步在哪里？这个问题，我在她家舒适的地方问过自己。"
-    sn "我需要找到她，但我不知道下一步该去哪里。"
-    sn "我没有计划这么远，现在我在这里。..我不知道该怎么办。"
+    sn "Where next? That question, I had asked myself in the comforts of her home."
+    sn "I needed to find her, but I had no clue where to go next."
+    sn "I didn't plan this far ahead, and now that I was here... I had no idea what to do."
     nvl clear   
     nvl hide Dissolve(0.3)
 
-    Sanna squint frown "我真的像我想象的那样了解她吗？" with Dissolve(0.3)
+    Sanna squint frown "Did I really know her as well as I had thought?" with Dissolve(0.3)
 
-    sn "她多次提到北边的空地。也许她在那里。" with Dissolve(0.3)
-    sn "沿着应该向北走的街道，我步履沉重地向前走去。风把我的步伐逼得像蜗牛一样，有好几次，我差点摔倒，双脚陷在雪地里。"
-    sn "狂风吹过我的脸，感觉就像一千根无形的针穿过它。"
-    sn "虽然我的手指以前感觉麻木，但现在除了刺痛什么也感觉不到。尽管如此，我还是强迫自己前进。"
-    sn "我需要尽我所能去。"
+    sn "She mentioned the empty zone to the north many times. Maybe she was there." with Dissolve(0.3)
+    sn "Following the street that should head north, I trudged forward. The wind forced my pace to a snail's pace, and not a few times, I nearly fell over, feet entrenched in the snow."
+    sn "The harsh wind blowing against my face felt like a thousand invisible needles going through it."
+    sn "Whereas my fingers felt numb before, now they felt nothing but stinging pain. Nevertheless, I force myself forward."
+    sn "I needed to go as far as I could go."
     nvl clear   
-    sn "我必须这么做。"
+    sn "I had to."
     nvl clear  
     nvl hide Dissolve(0.3)
 
@@ -114,116 +114,116 @@ label start:
     play music calm2
 
     show freya closed pout at t21
-    Freya "Brrr... 外面很冷。"
+    Freya "Brrr... It's cold outside."
     show sanna standing pjs smile at t22
-    Sanna "欢迎回来。"
-    Freya grin open "Hehe, 我回来了。"
-    Freya "我今天带来了一些特别的东西。"
-    Sanna skeptic "有什么特别的吗？"
-    Freya up scheming "猜猜看，桑娜。我不应该让你猜，但如果你没有机会猜，那就不好玩了。"
-    Sanna "我不知道。小狗？"
-    Freya "想得美！"
-    Sanna trying "请先就座。在雪地里跋涉，你一定累坏了。我给你拿些热水来。"
-    Freya crossed pleased "谢谢你"
-    Sanna skeptic "是食物吗？"
-    Freya awkward "好吧，我也带了，但也不完全是这样。"
-    Sanna "那么，你为什么这么高兴？"
-    Freya up geez "但你还没猜到呢！"
-    Sanna squint concerned "啊啊……"
-    Sanna pout "Mmm...我不知道，放弃啦放弃。"
+    Sanna "Welcome back."
+    Freya grin open "Hehe, I'm back."
+    Freya "I brought something special today."
+    Sanna skeptic "Something special?"
+    Freya up scheming "Try and guess, Sanna. I shouldn't make you guess, but it's no fun if you don't get a chance to."
+    Sanna "I don't know. A puppy?"
+    Freya "You wish."
+    Sanna trying "Take a seat first. You must be exhausted trudging through the snow. Let me get you some hot water."
+    Freya crossed pleased "Thanks."
+    Sanna skeptic "Is it food?"
+    Freya awkward "Well, I did bring that too, but that's not quite it either."
+    Sanna "So, what is it you're so happy about?"
+    Freya up geez "But you haven't guessed yet!"
+    Sanna squint concerned "Ahh..."
+    Sanna pout "Mmm... I don't know, I give up."
     Freya pout "Boo."
-    Freya grin "但在这里，就是这个。"
-    Sanna skeptic "…那是什么？"
+    Freya grin "But here, it's this."
+    Sanna skeptic "...what is that?"
 
-    sn "她拿出一些东西，带着一种好像找到了无价之宝的表情给我看。" with Dissolve(0.3)
-    sn "珍贵的东西。一颗闪闪发光、看起来很脆弱的宝石。"
+    sn "She took out something and showed it to me with an expression as if she had found a priceless treasure." with Dissolve(0.3)
+    sn "Something precious. A shining and fragile looking gem."
     nvl clear 
 
-    Sanna crystal "钻石？这是什么？" with Dissolve(0.3)
-    Freya crossed smug "它实际上比这更有价值。"
-    Sanna "什么意思？"
-    Freya up "来，让我给你看看。"
+    Sanna crystal "A diamond? What is this?" with Dissolve(0.3)
+    Freya crossed smug "It's actually much more valuable than that."
+    Sanna "What do you mean?"
+    Freya up "Here, let me show you."
     show sanna pjs
 
     window show
-    sn "我的第一印象是错误的。" with Dissolve(0.3)
-    sn "我以为她找到了一块价值不菲的宝石。"
-    sn "但钱已经没有意义了。"
-    sn "就这样，她从厨房里找到了研钵和杵，把她带给我的稍纵即逝的水晶磨碎了。"
-    sn "尽管我给她倒了一杯水，她还是把粉末倒进水里搅拌，递给我杯子。"
+    sn "My first impressions were wrong." with Dissolve(0.3)
+    sn "I thought she had found a gemstone that was worth a lot of money."
+    sn "But money had no meaning anymore."
+    sn "Just like that, she found the mortar and pestle from the kitchen and ground up the fleeting crystal she brought me."
+    sn "Even though I had gotten that cup of water for her, she poured the powder into the water and stirred, handing me the cup."
     nvl clear   
     nvl hide Dissolve(0.3)
 
-    Freya "喝吧" with Dissolve(0.3)
-    Sanna sad "Freya, 为什——"
+    Freya "Drink." with Dissolve(0.3)
+    Sanna sad "Freya, I don't-"
     Freya guilty crossed "Just trust me."
     Sanna "..."
-    Sanna concerned "……好吧，好吧。"
+    Sanna concerned "...fine."
     show freya neutral
 
     show black with Dissolve(0.3)
     "..."
     hide black with Dissolve(0.3)
 
-    Sanna skeptic "这很甜……但也……"
-    Sanna "……奇怪地熟悉？"
-    Freya "我去了北方，靠近废墟。"
-    Sanna sad "你去了这么危险的地方？"
-    Freya guilty "对不起"
-    Freya up pleased "但正因为如此，我遇到了一些人。"
-    Freya grin "他们教我如何找到它，以及如何使用它。"
-    Sanna concerned "我说它很甜，但没那么甜。弗雷娅，这样的事情不值得冒险。"
-    Freya crossed guilty "这是药。它会让事情好转的。"
+    Sanna skeptic "It's sweet... but also..."
+    Sanna "...strangely familiar?"
+    Freya "I went to the north, near the ruins."
+    Sanna sad "You went to such a dangerous place?"
+    Freya guilty "Sorry."
+    Freya up pleased "But because of that, I met some people."
+    Freya grin "They showed me how to find it, and how to use it."
+    Sanna concerned "I said it's sweet but not that sweet. Something like this is not worth the danger, Freya."
+    Freya crossed guilty "It's medicine. It'll make things alright again."
     show freya serious
-    Sanna surprised "药...?"
-    Sanna frown "这样的事情真的有可能吗？我真的不相信。"
-    Sanna "听起来太可疑了。"
-    Freya up guilty "我也不相信，但他们给我看了。"
-    Freya surprised "我必须-"
-    Freya crossed awkward "……这有点复杂。但这是有效的药物。"
-    Freya "……不管怎样，相信我，好吗？拜托，我对此感觉很好。"
+    Sanna surprised "Medicine...?"
+    Sanna frown "Something like that is really possible? I don't really believe it."
+    Sanna "It sounds too suspicious."
+    Freya up guilty "I didn't believe it either, but they showed me."
+    Freya surprised "I just have to-"
+    Freya crossed awkward "...It's a little complicated. But it's medicine that works."
+    Freya "...anyway, just trust me on this, okay? Please, I have a really good feeling about this."
     Sanna "..."
-    Freya "...求你了？"
+    Freya "...Please?"
     Sanna "..."
-    Sanna trying "...好吧。"
+    Sanna trying "...Alright."
 
-    sn "我仍然没有真正被说服，但Freya不会对我撒谎。" with Dissolve(0.3)
-    sn "至少她是出于好意。我敢肯定。"
+    sn "I was still not really convinced but Freya was not someone who would lie to me." with Dissolve(0.3)
+    sn "At the very least she had good intentions. That, I was sure of."
     nvl clear   
     nvl hide Dissolve(0.3)
 
     scene house with fade
     show freya at t42
-    Freya "我最近注意到了一些事情，Sanna。" with Dissolve(0.3)
+    Freya "I've noticed something recently, Sanna." with Dissolve(0.3)
     show sanna sitting blanket plush at t43
     Sanna "Hm?"
-    Freya pleased "你看起来有点像一条裹在毯子里的虫子，一条可爱的小虫子。"
-    Sanna upset "可爱？虫子不可爱。"
+    Freya pleased "You kind of look like a worm wrapped up in the blanket, a cute little worm."
+    Sanna upset "Cute? Worms are not cute."
     Freya grin up "Yes they are?"
-    Sanna contradict "如果我是一只虫子，你还会爱我吗？"
-    Freya smug "当然。我会给你建一个完整的饲养箱，每天喂你虫子吃。"
+    Sanna contradict "If I were a worm, would you still love me?"
+    Freya smug "Of course. I'd build a whole terrarium for you and feed you worm food everyday."
     Sanna squint pout "......"
     Freya geez "Pfft."
-    Sanna contradict "我很欣赏这个想法，但毕竟我作为一个人更快乐。你更喜欢哪一种：蠕虫还是人类？"
-    Freya smug crossed "让我看看……"
-    Sanna surprised "这甚至不应该是个问题。"
-    Freya awkward up "我不能两者都吃吗？"
-    Sanna squint pout "不，你必须选一个。"
-    Freya crossed smug "那么，我会坚持和人类你在一起，那个最爱我的小而可爱的人类Sanna。"
-    Freya grin "现在，如果另一个选择是大沃姆，我不知道……"
+    Sanna contradict "I appreciate the thought, but I'm happier being a human after all. Which do you prefer: worm me or human me?"
+    Freya smug crossed "Let me see..."
+    Sanna surprised "This shouldn't even be a question."
+    Freya awkward up "Can't I have both?"
+    Sanna squint pout "No, you have to choose one."
+    Freya crossed smug "Then, I'll stick with human you, the small and cuddly human Sanna who loves me the most."
+    Freya grin "Now, if the other option was a wyrm, I don't know..."
     Sanna squint pout "Hmph."
-    Freya "我最终还是会选择你。"
-    Freya up grin "桑娜，你会选择哪一个？如果我只是一个普通的老我，一条虫子，还是一只大沃姆？"
-    Sanna smile "这根本不是问题，芙蕾雅。我会选择我最爱的正常的人类芙蕾雅"
-    Freya crossed pleased "啊，我也最爱你。"
+    Freya "I'd still be choosing you in the end."
+    Freya up grin "Which would you choose, Sanna? If I were just plain old me, a worm, or a wyrm?"
+    Sanna smile "That's not even a question, Freya. I'd choose the normal, human Freya who I love the most."
+    Freya crossed pleased "Aw, I love you the most too."
 
 
-    sn "我把头靠在她的肩膀上。当我开始感到困倦时，她把手放在我的手上。" with Dissolve(0.3)
-    sn "我感到安全和放松。"
-    sn "好暖和。"
-    sn "我所能做的就是吸走那股温暖。"
-    sn "我希望我能做得更多。"
-    sn "我想成为一个可以支持她的人，而不是一个总是需要支持的人。"
+    sn "I placed my head on her shoulder. And as I started to feel sleepy, she placed her hand over mine." with Dissolve(0.3)
+    sn "I felt safe and at ease."
+    sn "So warm."
+    sn "All I could do was sap away that warmth."
+    sn "I wished I could do more than that."
+    sn "I wanted to become someone who could support her rather than someone who always had to be supported."
     nvl clear  
     nvl hide Dissolve(0.3)
     stop music fadeout(2)
@@ -243,37 +243,37 @@ label start:
     with flashflash
 
     show sanna standing jacket open surprised at t32
-    Sanna "！！！"
+    Sanna "!!"
 
-    sn "我的眼角突然闪过一道红光。" with Dissolve(0.3)
-    sn "部分被埋在雪中，但还没有完全被白色覆盖，我在离我最终停下来的地方几步远的地方发现了她的围巾。"
-    sn "我向前走了。"
-    sn "我把它挖了起来，拍掉了粘在上面的干雪。"
-    sn "这是她的围巾，但是……主人在哪里？"
+    sn "Out of the corner of my eyes, I suddenly noticed a flash of red." with Dissolve(0.3)
+    sn "Partially buried in the snow but not yet fully enveloped by the white, I found her scarf a few paces away from where I had ultimately stopped."
+    sn "I went forward."
+    sn "Digging it up, I patted away the dry snow that clung to it."
+    sn "This was her scarf, but ...where was the owner?"
     nvl clear  
-    sn "以降雪的速度，我估计她一定是最近才失去的。我心中燃起了一丝希望，我很快就能找到她。"
-    sn "尽管我很想找到它们，但我在雪地里看不到她的脚印。"
-    sn "感觉围巾没有湿，只是在雪地里有点冷，我把它戴在脖子上。随着红色贴近我的心，我已经觉得有点勇敢了。"
-    sn "我必须继续前进。在我如此接近的时候放弃将是一场悲剧。"
+    sn "With the rate of the snowfall, I estimated that she must have only lost it recently. A spark of hope rose in me that I could reach her soon."
+    sn "As much as I wanted to find them, I could not see her footprints in the snow."
+    sn "Feeling that the scarf was not wet, only chilly having been in the snow, I placed it around my neck. With the red close to my heart, I felt a little braver already."
+    sn "I had to keep going. To give up when I was this close would be such a tragedy."
     nvl clear   
     nvl hide Dissolve(0.3)
 
 
     Sanna shout_sad scarf "Freya!" with Dissolve(0.3)
-    Sanna "你在……哪里……"
+    Sanna "Where are you?"
     show sanna sad
     pause 2
 
-    sn "没有人回应。" with Dissolve(0.3)
-    sn "我没有期待奇迹。我只是想要一个幸福的现实。没有什么是完美的。一旦我们再次见面，我们仍然需要处理我们的不满，但我必须找到她。"
-    sn "我用新发现的最后力量储备把自己拉了起来。"
-    sn "仅凭直觉，我就有一种直觉，她必须朝这个方向走。向前，向前，我只需要向前走，找到她。"
-    sn "左脚向前。右脚向前。"
+    sn "No one responded." with Dissolve(0.3)
+    sn "I wasn't expecting a miracle. I just wanted a happy reality. Nothing had to be perfect. Once we met again, we still had to deal with our grievances, but I had to find her."
+    sn "I pulled myself up with my newfound final reserves of strength."
+    sn "Relying on instinct alone, I had a gut feeling that she had to be in this direction. Forward, forward, I just had to move forward and reach her."
+    sn "Left foot forward. Right foot forward."
     nvl clear   
-    sn "雪在我眼前越下越大，然后才慢慢停了下来。"
-    sn "在远处，我看到一个人影。"
-    sn "我感觉好像看见她了，但无法靠近。不，她离得更远了；她要消失了。我不明白为什么，但这个想法牵动了我的心。"
-    sn "我追着她跑。"
+    sn "The snow cleared even more before my eyes before it slowly came to a stop."
+    sn "In the distance, I saw a figure."
+    sn "I felt as if I saw her but couldn't get closer. No, she was getting further away; she was going to disappear. I didn't understand why, but that thought tugged at my heart."
+    sn "I ran after her."
     nvl clear   
     nvl hide Dissolve(0.3)
     Sanna running scarf "Freya!" with Dissolve(0.3)
@@ -285,13 +285,13 @@ label start:
 
 
 
-    sn "她和我，如果我谈论我们俩，我几乎不知道从哪里开始。" with Dissolve(0.3)
-    sn "就连我们初次见面的细节似乎也不起眼。"
-    sn "在同一个地区长大的孩子们，我并不觉得我们相遇很奇怪。"
-    sn "在某个时间点，我们只是意识到另一个存在。我们成了熟人。"
+    sn "She and I, if I were to talk about the two of us, I barely knew where to start." with Dissolve(0.3)
+    sn "Even the details of how we first met seemed rather unremarkable."
+    sn "Kids growing up in the same district, I didn't find it strange that we crossed paths."
+    sn "At some point in time, we simply realized that the other existed. We became acquaintances."
     nvl clear   
-    sn "我不认为我们是特别合得来的人，但在我意识到之前，我们已经变得密不可分，是最好的朋友，而且不仅仅是朋友。"
-    sn "或者我喜欢这么想。"
+    sn "I didn't think that we were particularly compatible people, but before I knew it, we had become inseparable, the best of friends and something more than friends."
+    sn "Or so I liked to think."
     nvl clear   
     nvl hide Dissolve(0.3)
 
