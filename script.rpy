@@ -51,7 +51,7 @@ label start:
     sn "这是我有生以来第一次敲门。" with Dissolve(0.3)
     sn "我把手放在门上的声音空洞地回响着。"
     sn "长时间的沉默。我又敲了一下。"
-    sn "没有人回答。""
+    sn "没有人回答。"
     nvl clear 
     sn "她家的门铃早就坏了，从来没有人想过要修好它。我所能做的就是再敲几下，站在原地时感觉寒冷袭来。"
     sn "她可能没有听到我的声音。如果她在家，她有可能在咆哮的暴风雪中没有听到我微弱的敲门声。"
@@ -301,66 +301,66 @@ label start:
     show sanna standing jacket open surprised at t22
     Sanna "...A...achoo!" with Dissolve(0.3)
     show freya awkward at t42
-    Freya "Bless you."
-    Sanna awkward "Thank you, Freya."
+    Freya "祝福你。"
+    Sanna awkward "谢谢你，Freya."
     show sanna pout
 
-    sn "There was a time I went outside with Freya. What for, I forgot." with Dissolve(0.3)
-    sn "I only remembered thinking that the faded out streets I walked on should have been familiar but looked so foreign. They shouldn't have looked so grey only because of the snow."
-    sn "After all, snow wasn't unusual for this country."
+    sn "有一次我和Freya出去了。为什么，我忘了。" with Dissolve(0.3)
+    sn "我只记得当时想，我走过的那些褪色的街道应该很熟悉，但看起来很陌生。它们不应该仅仅因为雪而看起来如此灰暗。"
+    sn "毕竟，雪对这个国家来说并不罕见。"
     nvl clear   
     nvl hide Dissolve(0.3)
 
 
-    Sanna "It's snowing outside again." with Dissolve(0.3)
-    Sanna mild "Next year, we should really go on a trip to somewhere warm. Like Hawaii or maybe somewhere down south. I hear it's summer there right now."
-    Freya "We really should."
-    Freya "We've been saying it forever, but it never goes our way. What was it, last year? Even though you didn't get sick, I ended up breaking my arm."
-    Sanna sad "And now with the stuff that's been happening outside..."
-    Freya up "Yeah... well, who knows, maybe things will get better by next year and we'll finally get to go on our trip."
-    Sanna open mild "Where to?"
-    Freya grin "Hawaii sounds nice. Ah, but, it might not be in the southern hemisphere. Maybe New Caledonia? We could go to Australia and fight emus too."
-    Sanna squint concerned "I will veto the emu fighting right now."
-    Freya crossed smug "Better than fighting penguins."
-    Sanna "I don't want to be fighting anything."
-    Freya geez "Haha. Where do you want to go then?"
-    Sanna chill "I don't know. There are too many choices..."
-    Sanna "I can't think of anything right now."
-    Freya smile "There's always next year to decide."
+    Sanna "外面又下雪了。" with Dissolve(0.3)
+    Sanna mild "明年，我们真的应该去一个温暖的地方旅行。比如夏威夷，或者南方的某个地方。我听说那里现在是夏天。"
+    Freya "我们真的应该。"
+    Freya "我们一直这么说，但从来没有按照我们的方式去做。去年发生了什么事？即使你没有生病，我最终还是摔断了胳膊。"
+    Sanna sad "现在外面发生的事情……"
+    Freya up "是啊……好吧，谁知道呢，也许到明年情况会好转，我们终于可以开始旅行了。"
+    Sanna open mild "去哪里？"
+    Freya grin "夏威夷听起来不错。啊，但是，它可能不在南半球。也许是新喀里多尼亚？我们也可以去澳大利亚和鸸鹋打架。"
+    Sanna squint concerned "我现在就否决动车组的比赛。"
+    Freya crossed smug "总比和企鹅打架好。"
+    Sanna "我什么都不想打架。"
+    Freya geez "哈哈。那你想去哪里？"
+    Sanna chill "我不知道。选择太多了……"
+    Sanna "我现在什么都想不起来。"
+    Freya smile "总有明年的事情要做决定。"
 
 
-    sn "Our footsteps crunched on the snow covered ground." with Dissolve(0.3)
-    sn "My eyes took in the unfamiliar familiar. Fewer people were outside than usual even when taking into account how most preferred to stay indoors during winter."
-    sn "For a moment, I thought I saw a ghost."
+    sn "我们的脚步在白雪覆盖的地面上嘎吱嘎吱作响。" with Dissolve(0.3)
+    sn "我的眼睛看到了陌生熟悉的东西。即使考虑到冬天最喜欢待在室内，外面的人也比平时少。"
+    sn "有那么一会儿，我以为我看到了鬼。"
     nvl clear   
     nvl hide Dissolve(0.3)
 
     Sanna determined "..." with Dissolve(0.3)
-    Freya guilty "What is it?"
-    Sanna "That person..."
-    Sanna frown sweat "They look so... washed out."
-    Freya serious "Do you know them?"
-    Sanna "I..."
-    Sanna determined "No."
-    Freya "We shouldn't stare. Let's go."
-    Sanna "Okay."
+    Freya guilty "这是什么？"
+    Sanna "那个人…"
+    Sanna frown sweat "他们看起来……太疲惫了。"
+    Freya serious "你认识他们吗？"
+    Sanna "我…"
+    Sanna determined "不"
+    Freya "我们不应该盯着看。我们走吧。"
+    Sanna "好的。"
 
     show black with fade
     pause 1
     hide black with Dissolve(0.3)
     show sanna -sweat
-    Freya concerned "Any news from your parents?"
-    Sanna open "They wanted to be back by the holidays, but..."
-    Sanna frown "With the way things are looking, it seems like they're still stuck abroad for another few weeks."
-    Freya "...This can't go on forever, they'll be able to come sooner or later."
-    Freya awkward "And until they make it back, I'll still be here for you."
-    Sanna mild "I know."
+    Freya concerned "你父母有消息吗？"
+    Sanna open "他们想在假期前回来，但是……"
+    Sanna frown "就目前的情况来看，他们似乎还要在国外呆上几个星期。"
+    Freya "……这不可能永远持续下去，他们迟早会来的。"
+    Freya awkward "在他们回来之前，我还会在你身边。"
+    Sanna mild "我知道。"
 
 
-    sn "We had the bad habit of putting off our planning till later, which probably contributed to how we never did get to go on the elusive trip we liked to talk about." with Dissolve(0.3)
-    sn "Back then, we still had an excess of hope."
-    sn "Hope that things would return to normal."
-    sn "But my parents never did come back."
+    sn "我们有一个坏习惯，就是把计划推迟到以后，这可能导致我们从来没有参加过我们喜欢谈论的难以捉摸的旅行。" with Dissolve(0.3)
+    sn "那时候，我们仍然抱有过多的希望。"
+    sn "希望一切能恢复正常。"
+    sn "但我父母再也没回来。"
     nvl clear   
     nvl hide Dissolve(0.3)
 
@@ -375,29 +375,29 @@ label start:
     call show_snow from _call_show_snow_5
     with flashflash
 
-    sn "I kept running." with Dissolve(0.3)
-    sn "Running after the figure I saw. It was not moving yet, it seemed like it wasn't getting any closer."
-    sn "The snow hindered me, making my feet sink deeper into the white quagmire with each hurried movement. The wind pushed me back. Even my own useless two feet got in the way."
-    sn "The snow itself was trying to stop me. I could feel it seeping out of the whiteness, covering my consciousness with an ice-cold haze."
+    sn "我一直在跑。" with Dissolve(0.3)
+    sn "追着我看到的身影跑。它还没有动，似乎没有再靠近。"
+    sn "雪阻碍了我，每一个匆忙的动作都让我的脚更深地陷入白色的泥潭。风把我推了回去。就连我自己无用的两只脚也挡住了路。"
+    sn "雪本身正试图阻止我。我能感觉到它从白色中渗出，用冰冷的薄雾笼罩着我的意识。"
     nvl clear 
-    sn "Was I too exhausted to go on? Had my very essence reached its limit in this disappearing plane?"
-    sn "I tried to reject the notion because I had to keep going."
-    sn "As if the very memory of her were fading away into the white, a harsh wind blew by a thick veil of white snow, blocking my view of her figure."
-    sn "No, this wasn't snow. This was just a curse."
+    sn "我是不是太累了，无法继续？在这架消失的飞机上，我的本质是否已经达到了极限？"
+    sn "我试图拒绝这个想法，因为我必须继续前进。"
+    sn "仿佛对她的记忆正在消失在白色中，一阵狂风吹过厚厚的白雪，挡住了我对她身影的视线。"
+    sn "不，这不是雪。这只是诅咒。"
     nvl clear 
-    sn "What would it try to take away next? My name? My self? Even so, I couldn't let go of the part of me that needed so desperately to take just one more step."
-    sn "The wind howled. The snow began to fall once more. White filled my vision."
+    sn "接下来它会夺走什么？我的名字？我的自我？即便如此，我还是无法放下自己迫切需要再迈出一步的部分。"
+    sn "风呼啸着。雪又开始下了。白色充满了我的视野。"
     nvl clear   
     nvl hide Dissolve(0.3)
 
-    Sanna mouth_open "How dare you try to take her away from me-" with Dissolve(0.3)
+    Sanna mouth_open "你怎么敢试图把她从我身边带走-" with Dissolve(0.3)
     Sanna grit "!!!"
     scene white with flashflash
-    sn "My call was choked back in my throat as a powerful blast of arctic wind slammed into me." with Dissolve(0.3)
-    sn "The sheer force knocked my small frame out of balance, and I tumbled back into the snow."
-    sn "I tried to regain my composure, and power through the gusts of blade-like winds."
-    sn "Slowly, step by step, I approached the figure."
-    sn "It was..."
+    sn "一股强大的北极风猛烈地吹向我，我的电话哽咽了。" with Dissolve(0.3)
+    sn "巨大的力量把我的小身躯撞得失去了平衡，我滚回了雪地里。"
+    sn "我试图在阵阵狂风中恢复镇静和力量。"
+    sn "慢慢地，一步一步地，我走近了那个身影。"
+    sn "那是……"
     nvl clear   
     nvl hide Dissolve(0.3)
 
@@ -407,25 +407,25 @@ label start:
     call show_snow from _call_show_snow_6
     with flash
 
-    Sanna "A... a tree." with Dissolve(0.3)
+    Sanna "一棵……树。" with Dissolve(0.3)
     Sanna sad "..."
 
-    sn "I felt my heart sink." with Dissolve(0.3)
-    sn "I couldn't bear this any longer. I wanted to go home."
-    sn "Or just give up."
+    sn "我感觉我的心沉了下去。" with Dissolve(0.3)
+    sn "我再也忍受不了了。我想回家。"
+    sn "或者干脆放弃。"
     nvl clear   
     nvl hide Dissolve(0.3)
 
     Sanna closed frown "..." with Dissolve(0.3)
     Sanna "No..."
-    Sanna sad "No, that's not it."
-    Sanna open frown "She wouldn't give up this easily."
-    Sanna mild squint "She would probably laugh at herself for something like this and move on."
+    Sanna sad "不，不是这样的。"
+    Sanna open frown "她不会轻易放弃的。"
+    Sanna mild squint "她可能会因为这样的事情而自嘲，然后继续前进。"
     Sanna determined "I..."
-    Sanna "I need to be like her."
-    Sanna "Give me your strength, Freya."
+    Sanna "我需要像她一样。"
+    Sanna "给我你的力量，Freya."
 
-    sn "I slowly trudged on, through the blizzard." with Dissolve(0.3)
+    sn "我在暴风雪中慢慢跋涉。" with Dissolve(0.3)
     nvl clear   
     nvl hide Dissolve(0.3)
 
@@ -443,66 +443,66 @@ label start:
     play music wondering
 
     show sanna standing pjs blanket frown at t22
-    Sanna "I don't think we can go on our trip anymore."
+    Sanna "我想我们不能再去旅行了。"
     show freya closed pout at t21
-    Freya "Oh."
-    Freya open "We haven't talked about that in a long time."
-    Freya "Going overseas would be out for the foreseeable future, but... we could always try going on a road trip instead."
-    Sanna squint hmph "No emus."
-    Freya grin up "Wow. you still remember that?"
-    Freya smile crossed "I don't think there are emus in Italy, and I hear it's pretty warm down there in the winter. It's a bit far away, but we could definitely do it by land."
-    Sanna smile open "Yea, that would be nice."
-    Freya pleased "Or Spain too. I don't know anything about Mediterranean islands, but boats still exist, so maybe that's an option too."
-    Sanna frown "But I don't think we can do it anymore."
-    Sanna squint concerned "I... can't do it anymore."
+    Freya "哦。"
+    Freya open "我们已经很久没谈过这个了。"
+    Freya "在可预见的未来，出国是不可能的，但是……我们总是可以试着去公路旅行。"
+    Sanna squint hmph "没有鸸鹋。"
+    Freya grin up "哇，你还记得吗？"
+    Freya smile crossed "我觉得意大利没有鸸鹋，我听说那里冬天很暖和。有点远，但我们肯定可以在陆地上做到。"
+    Sanna smile open "是的，那太好了。"
+    Freya pleased "或者西班牙也是。我对地中海岛屿一无所知，但船仍然存在，所以也许这也是一个选择。"
+    Sanna frown "但我觉得我们再也做不到了。"
+    Sanna squint concerned "我……再也受不了了。"
     Freya concerned "Sanna..."
-    Sanna "I don't think..."
-    Freya guilty up "No! You'll get better! You will! I know it!"
+    Sanna "我不认为……"
+    Freya guilty up "不！你会好起来的！你会的！我知道！"
     Sanna sad "..."
-    Freya "Sanna, you'll get better. It's just the fever."
-    Sanna "No... that's not it."
+    Freya "Sanna，你会好起来的。只是发烧。"
+    Sanna "不……不是这样的。"
     Sanna open frown "I..."
-    Freya surprised "We'll find something, I'll go out and find some medicine. You'll be fine in no time, Sanna! And we'll get to go on that trip, I promise you. We'll--"
+    Freya surprised "我们会找到一些东西的，我会出去找些药的。你很快就会好的，Sanna！我向你保证，我们会去旅行的。我们会——"
     Sanna shout "Freya!"
     show sanna angry
-    Freya closed concerned "!!"
+    Freya closed concerned "！！"
     Freya crossed open "..."
-    Sanna sad "I can't remember."
-    Sanna squint "No matter how hard I try, I can't remember their faces, Freya."
-    Freya crossed "Who?"
-    Sanna "My parents."
-    Sanna "I can't remember what they look like. What they sound like."
-    Sanna "...I don't even remember their names."
+    Sanna sad "我不记得了。"
+    Sanna squint "不管我怎么努力，我都记不起他们的脸了，Freya."
+    Freya crossed "谁？"
+    Sanna "我的父母。"
+    Sanna "我不记得它们是什么样子的。它们听起来是什么样子。"
+    Sanna "……我甚至不记得他们的名字了。"
 
-    sn "Photo albums and diaries had been long wiped clean. My chest felt hollowed out, and I looked at my hands that felt like they'd been drained of color." with Dissolve(0.3)
-    sn "Yesterday, today, tomorrow, I couldn't keep track of anything. I didn't know if there would be a tomorrow and what would come after. I questioned when I would cease to be me."
+    sn "相册和日记早就被擦干净了。我的胸膛感觉被掏空了，看着我的手，感觉好像已经失去了颜色。" with Dissolve(0.3)
+    sn "昨天、今天、明天，我什么都记不清了。我不知道明天是否会到来，之后会发生什么。我问自己什么时候会不再是我。"
     nvl clear   
     nvl hide Dissolve(0.3)    
 
 
-    Sanna "I'm fading, Freya. I feel so faint." with Dissolve(0.3)
-    Sanna teary "What if I can't remember you anymore?"
-    Freya sweat guilty up "I-"
-    Freya -sweat awkward crossed "I'm right here."
-    Freya "You can feel my heartbeat."
-    Freya "I won't leave your side as long as you're willing to let me be with you. I won't let you forget me either. I'll always remind you that I'm here."
+    Sanna "我快晕了，芙蕾雅。我感觉好晕。" with Dissolve(0.3)
+    Sanna teary "如果我再也不记得你了怎么办？"
+    Freya sweat guilty up "我——"
+    Freya -sweat awkward crossed "我就在这里。"
+    Freya "你能感觉到我的心跳。"
+    Freya "只要你愿意让我和你在一起，我就不会离开你。我也不会让你忘记我。我会永远提醒你我在这里。"
     Sanna "...hic..."
-    Freya up guilty sweat "So just hang on a little longer until I find... something."
-    Sanna closed sad "No, don't go."
-    Freya "But, if I don't try..."
-    Sanna open "Freya, I just want to spend the end with you."
-    Freya concerned "I don't want to spend the end with you. I want to spend the future with you, Sanna."
+    Freya up guilty sweat "所以再等一会儿，直到我找到……什么。"
+    Sanna closed sad "不，别走。"
+    Freya "但是，如果我不尝试……"
+    Sanna open "Freya，我只想和你共度余生。"
+    Freya concerned "我不想和你一起度过最后。我想和你共度未来，Sanna."
     Sanna closed -teary frown "......"
-    Sanna awkward "Then... just for today, let's pretend that everything is still normal."
+    Sanna awkward "那么……就今天而言，让我们假装一切都很正常。"
     show sanna squint trying
     Freya "......"
-    Freya crossed awkward "Alright."
+    Freya crossed awkward "好吧。"
 
 
 
-    sn "I had always been bad at make-believe, and Freya was good at it." with Dissolve(0.3)
-    sn "But..."
-    sn "...what did normal even mean anymore?"
+    sn "我一直不擅长假装，而Freya很擅长。" with Dissolve(0.3)
+    sn "但..."
+    sn "……正常甚至意味着什么？"
     nvl clear   
 
     stop music fadeout(2)
@@ -527,28 +527,28 @@ label start:
     sn "..Step."
     sn "...Step."
     nvl clear 
-    sn "The sky, still covered in snow-letting clouds, was dark. I couldn't tell the time of day, but surely night had yet to fall."
-    sn "Moving my foot forward once more, I felt my center of mass shift."
-    sn "Into the snow I stumbled. For a moment, I felt as if I was drowning in the whiteness that surrounded me in all directions."
-    sn "My vision flickered. As I forced myself up to my feet, brushing away the snow on my body to no avail amidst the constant white precipitation, my arms shook."
+    sn "天空仍然被飘雪的云朵覆盖着，一片漆黑。我不知道一天中的时间，但肯定夜幕还没有降临。"
+    sn "再次向前移动我的脚，我感觉到我的重心转移了。"
+    sn "我跌跌撞撞地走进雪地。有那么一瞬间，我觉得自己仿佛淹没在四周环绕的白色中。"
+    sn "我的视线一闪而过。当我强迫自己站起来，在持续的白色降水中拂去身上的雪却无济于事时，我的手臂在颤抖。"
     nvl clear 
-    sn "When I breathed in, a sharp pain pulled in my chest and invisible icicles seemed to sprout in my throat."
-    sn "Just how long had I been walking?"
-    sn "I pushed myself forward. My ankle seemed to crunch oddly in the ever-accumulating snowfield. If I twisted it, the cold and boots damped the pain."
-    sn "Eventually, the snow lightened up."
-    sn "Yet when I looked around, there seemed to be nothing here, only a dilapidated ruin of a landscape covered by snow."
+    sn "我吸气时，胸口一阵剧痛，喉咙里似乎长出了看不见的冰柱。"
+    sn "我走了多久？"
+    sn "我向前推了推。在不断积雪的雪地里，我的脚踝似乎奇怪地扭伤了。如果我扭了一下，寒冷和靴子会减轻疼痛。"
+    sn "雪终于变浅了。"
+    sn "然而，当我环顾四周时，这里似乎什么都没有，只有一片被雪覆盖的破败的废墟。"
     nvl clear 
-    sn "So much had disappeared that I could barely tell where I had come to."
-    sn "No, I really simply couldn't tell where I was anymore if this place even existed in the world anymore."
-    sn "I stumbled again."
-    sn "My limbs shook with an unfamiliar exhaustion. As I couldn't find the might in me to stand, I crawled forward a few more meters until I had no more strength left to move."
-    sn "What now?"
+    sn "太多东西都消失了，我几乎说不清自己到哪里去了。"
+    sn "不，如果这个地方在世界上还存在，我真的不知道我在哪里了。"
+    sn "我又绊倒了。"
+    sn "我的四肢因一种陌生的疲惫而颤抖。由于我找不到站立的力量，我又向前爬了几米，直到我没有力气再动了。"
+    sn "现在怎么办？"
     nvl clear 
     nvl hide Dissolve(0.3)  
 
     Sanna "..."
-    Sanna "I'll just... close my eyes..."
-    Sanna "...and rest for a bit..."
+    Sanna "我……闭上眼睛……"
+    Sanna "…休息一会儿……"
 
     stop music fadeout(7)
     scene black with dissolve_scene_full
@@ -562,74 +562,74 @@ label start:
     scene house with fade
 
     show freya closed pout at t21
-    Freya "I can't tell if your hands are cold or warm through the gloves." with Dissolve(0.3)
+    Freya "我无法通过手套判断你的手是冷还是热。" with Dissolve(0.3)
     show sanna standing pjs awkward at t22
-    Sanna "My hands are always cold."
-    Freya smile up open "I don't mind, I'll just warm you up since mine are always warm. There is a saying too. Cold hands, warm heart."
-    Sanna trying blush "Your heart is warmer than mine."
-    Freya smug crossed "It's okay, I'll warm your heart too."
-    Sanna "Hehe."
+    Sanna "我的手总是很冷。"
+    Freya smile up open "我不介意，我会温暖你的，因为我的总是温暖的。也有一句谚语。冰冷的手，温暖的心。"
+    Sanna trying blush "你的心比我的温暖。"
+    Freya smug crossed "没关系，我也会温暖你的心。"
+    Sanna "呵呵"
 
 
-    sn "Without any hesitation, she took my hand and gripped it firmly." with Dissolve(0.3)
-    sn "When I looked at her, the world seemed to regain its colors, even if only a little bit."
-    sn "A certain feeling had been bubbling in my chest for a long time. It wasn't painful at all. Rather, it was something warm and reassuring that I kept hidden away without saying."
-    sn "I didn't feel that I needed to say it."
+    sn "她毫不犹豫地握住我的手，紧紧地抓住它。" with Dissolve(0.3)
+    sn "当我看着她时，世界似乎恢复了色彩，即使只是一点点。"
+    sn "一种感觉在我胸口翻腾了很长时间。一点也不疼。相反，这是一种温暖而令人安心的感觉，我默默地藏了起来。"
+    sn "我觉得我不需要说出来。"
     nvl clear 
     nvl hide Dissolve(0.3) 
 
 
-    Freya serious "Your cheeks are a bit flushed." with Dissolve(0.3)
-    Sanna chill "Really?"
-    Freya "They are."
-    Freya "Maybe you should be in bed."
-    Sanna mild "No, I'm alright. I just..."
-    Sanna "I'm a bit tired from being in bed all day, if I'm being honest."
-    Freya concerned "O-oh yeah..."
-    Sanna trying "But I seem to be feeling better! I guess that crystal stuff really does work."
-    Freya neutral up "I told you it works."
-    Sanna "I guess it does. Even though you won't tell me what it is."
+    Freya serious "你的脸颊有点红。" with Dissolve(0.3)
+    Sanna chill "真的吗？"
+    Freya "他们是。"
+    Freya "也许你应该上床睡觉了。"
+    Sanna mild "不，我很好。我只是……"
+    Sanna "说实话，我整天躺在床上有点累。"
+    Freya concerned "哦，是的……"
+    Sanna trying "但我似乎感觉好多了！我想水晶确实有效。"
+    Freya neutral up "我早就告诉过你，这很有效。"
+    Sanna "我想是的。即使你不告诉我它是什么。"
     hide sanna
     hide freya
     with dissolve
     Freya "*cough*"
-    "She was caught in a fit of coughing."
+    "她突然咳嗽起来。"
     Sanna "Freya!"
-    Freya "I'm fine! I'm fine."
-    Freya "It's nothing. Just... a small fever. That's all."
-    Sanna "But--"
-    Freya "I just need some rest, okay? ...and I'll be fine."
-    Freya "Wha- what are you doing?"
-    "I pull Freya over into the bed, covering us both with the sheets."
+    Freya "我很好！我很好。"
+    Freya "没什么。只是……有点发烧。仅此而已。"
+    Sanna "但是——"
+    Freya "我只是需要休息一下，好吗？……我会没事的。"
+    Freya "你在干什么？"
+    "我把弗雷娅拉到床上，用床单盖住我们俩。"
     scene cg1 with dissolve
-    Freya "No, I don't want to give it to you-"
-    Sanna "Shhh, don't worry about it."
-    Sanna "I'll keep you warm."
-    Freya "A-alright."
+    Freya "不，我不想把它给你——"
+    Sanna "嘘，别担心。"
+    Sanna "我会给你保暖的。"
+    Freya "好吧。"
     Sanna "Freya?"
-    Freya "Yes?"
-    Sanna "I just wanted to say your name."
+    Freya "什么事？"
+    Sanna "我只是想说你的名字。"
     Freya "......"
-    Freya "I'll trust in you to remember for me if I ever forget."
+    Freya "如果我忘记了，我相信你会替我记住的。"
     Sanna "...yeah."
-    Sanna "I trust you too."
+    Sanna "我也相信你。"
 
 
-    sn "I looked outside through my room's window." with Dissolve(0.3)
-    sn "Nothing. No color, just pure white."
-    sn "An absence of color."
-    sn "I wondered about the other families that were holed up in their homes."
-    sn "Struggling, trying to weather the storm. Not knowing when it would light up, if at all."
-    sn "Were they trying to hold these small precious moments of daily mundanity?"
+    sn "我透过房间的窗户向外看。" with Dissolve(0.3)
+    sn "没什么。没有颜色，只有纯白色。"
+    sn "没有颜色。"
+    sn "我想知道其他躲在家里的家庭。"
+    sn "挣扎着，试图度过这场风暴。不知道它什么时候会亮，如果有的话。"
+    sn "他们是不是想留住这些日常平凡的珍贵时刻？"
     nvl clear 
-    sn "Or was it just me, desperately trying to hold myself together. Keep myself as I was."
-    sn "The days were blurring together."
-    sn "How long had I been stuck here? Five weeks? Two years?"
-    sn "I didn't know. Just thinking about it made me scared."
-    sn "But Freya was always here."
-    sn "As long as she was with me..."
+    sn "还是只有我一个人，拼命地试图把自己团结起来。保持原样。"
+    sn "日子模糊了。"
+    sn "我被困在这里多久了？五周？两年？"
+    sn "我不知道。一想到它，我就害怕。"
+    sn "但弗雷娅一直都在这里。"
+    sn "只要她和我在一起……"
     nvl clear 
-    sn "I didn't really mind anything else."
+    sn "我真的不介意别的。"
     nvl clear 
     nvl hide Dissolve(0.3) 
 
@@ -643,16 +643,16 @@ label start:
 
     play music ArtificialAntartica
     scene white
-    Sanna "*gasp*"
+    Sanna "*喘息*"
 
-    sn "I hoarsely coughed out snow from my lungs." with Dissolve(0.3)
-    sn "It was trying to kill me, trying to get inside me."
-    sn "I tried to get a grasp of my surroundings. I slowly started to remember."
-    sn "I had collapsed in the snow."
+    sn "我嘶哑地咳嗽出肺里的雪。" with Dissolve(0.3)
+    sn "它想杀了我，想钻进我的身体。"
+    sn "我试图了解周围的环境。我慢慢地开始想起来。"
+    sn "我倒在雪地里了。"
     nvl clear 
-    sn "Still coughing, I struggled to dig myself out of the thick blanket that was still piling on top of me."
-    sn "If I had woken any later I might have suffocated."
-    sn "That is, if I didn't freeze to death first."
+    sn "我还在咳嗽，挣扎着从仍压在身上的厚毯子里爬出来。"
+    sn "如果我再晚一点醒来，我可能会窒息而死。"
+    sn "也就是说，如果我没有先冻死的话。"
     nvl clear 
     nvl hide Dissolve(0.3) 
 
@@ -662,12 +662,12 @@ label start:
     with flashflash
 
     Sanna "Ungh..." with Dissolve(0.3)
-    Sanna "I have to... keep moving..."
+    Sanna "我必须……继续前进……"
     Sanna closed "..."
 
-    sn "Scanning the horizon, there were a few distinct shapes within a few miles." with Dissolve(0.3)
-    sn "Some buildings, ruins perhaps, or even a campsite. It was difficult to tell from this far away."
-    sn "In any case, it meant shelter, so I headed towards the shadows in the distance."
+    sn "扫描地平线，几英里内有几个不同的形状。" with Dissolve(0.3)
+    sn "可能是一些建筑、废墟，甚至是一个露营地。从这么远的地方很难分辨出来。"
+    sn "无论如何，这意味着庇护所，所以我朝远处的阴影走去。"
     nvl clear 
     nvl hide Dissolve(0.3) 
 
@@ -682,169 +682,169 @@ label start:
     play music lost
     scene house with fade
 
-    sn "If I closed my eyes, would I forget and be forgotten?"
-    sn "Snow continued to fall outside, covering the disappearing world in white. People faded away, losing everything and being lost by a world that no longer sustains memories."
-    sn "Today as well, I holed up in my room and waited."
+    sn "如果我闭上眼睛，我会忘记和被遗忘吗？"
+    sn "雪继续飘落在外面，用白色覆盖着消失的世界。人们渐渐消失了，失去了一切，被一个不再有记忆的世界所淹没。"
+    sn "今天，我也躲在房间里等着。"
     sn "Knock, knock."
-    sn "There was that familiar sound at the door."
-    sn "She came again. Even though I told her not to come anymore, she still came here each and every day."
+    sn "门口传来熟悉的声音。"
+    sn "她又来了。尽管我告诉她不要再来了，她还是每天都来这里。"
     nvl clear 
     nvl hide Dissolve(0.3) 
 
 
     scene door with dissolve
-    Freya "Sanna, I brought you some food. And... I also brought you your medicine." with Dissolve(0.3)
+    Freya "Sanna，我给你带了些食物。还有……我还给你带了药。" with Dissolve(0.3)
     show sanna sitting blank at s43
-    Sanna "I thought I told you to stop coming here."
-    Freya "You have to take it, alright?"
-    Freya "As long as you close your eyes and take it..."
-    Freya "Just pretend."
-    Freya "Everything will be alright."
-    Sanna "I'm used to taking bitter medicine."
-    Sanna frown "But I won't take that. It's not medicine, Freya."
-    Freya "If you don't take it, you'll disappear. Aren't you afraid of disappearing?"
+    Sanna "我记得我告诉过你不要来这里。"
+    Freya "你必须接受，好吗？"
+    Freya "只要你闭上眼睛，把它……"
+    Freya "假装吧。"
+    Freya "一切都会好起来的。"
+    Sanna "我习惯吃苦药。"
+    Sanna frown "但我不会吃的。这不是药，Freya."
+    Freya "如果你不接受，你就会消失。你不怕消失吗？"
 
-    sn "That was true." with Dissolve(0.3)
-    sn "More than that, I was afraid of her disappearing. Yet I was too much of a coward to open this door and look at her face. If I did, my convictions would waver."
-    sn "She couldn't keep going out to find those crystals. She couldn't keep coming back here. She couldn't, not for me."
-    sn "Both of us were obstinate."
+    sn "那是真的。" with Dissolve(0.3)
+    sn "不仅如此，我还害怕她消失。但我太胆小了，不敢打开这扇门看着她的脸。如果我这样做，我的信念就会动摇。"
+    sn "她不能一直出去找那些水晶。她不能一直回到这里。她不能，对我来说不行。"
+    sn "我们俩都很固执。"
     nvl clear 
     nvl hide Dissolve(0.3) 
 
 
 
-    Sanna "I'm alright even if I disappear." with Dissolve(0.3)
+    Sanna "即使我消失了，我也很好。" with Dissolve(0.3)
     Freya "Sanna-"
-    Sanna blank "Do you remember our special place?"
+    Sanna blank "你还记得我们的特殊地方吗？"
     Freya "......"
-    Sanna "The one we use to play at."
+    Sanna "我们以前玩的那个。"
     Freya "...yes."
-    Sanna "Is it still there?"
+    Sanna "它还在吗？"
     Freya "..."
 
-    "What was that place again? A park? A lake? I couldn't remember. All I had was a fuzzy feeling that once upon a time, we had spent our childhood at a place."
+    "那又是什么地方？公园？湖泊？我不记得了。我只是有一种模糊的感觉，仿佛很久以前，我们在一个地方度过了童年。"
 
 
-    Sanna distraught "Sometimes I wonder... the world outside, does it even exist anymore? Is it all covered in snow, or has everything gone, simply disappeared?"
-    Sanna "From the world itself, and our memories."
-    Freya "You're not wrong."
-    Freya "A lot has disappeared. Places I wanted to go with you, places we hold dear, they've crumbled and disappeared."
-    Freya "But we're still here. We're still alive, Sanna, so we can't disappear yet."
-    Sanna "Is it worth just existing if nothing exists anymore?"
-    Freya "If you're still here, then it is."
-    Sanna angry "Liar."
-    Sanna "What about me?"
-    Sanna "What if you're not-"
-    Sanna distraught "Freya, aren't you ever scared that if you step out there, you won't be able to come back?"
+    Sanna distraught "有时候我想知道……外面的世界，它还存在吗？是全被雪覆盖了，还是一切都消失了，只是消失了？"
+    Sanna "来自世界本身，以及我们的记忆。"
+    Freya "你没有错。"
+    Freya "很多东西都消失了。我想和你一起去的地方，我们珍视的地方，都崩溃了，消失了。"
+    Freya "但我们还在这里。我们还活着，Sanna，所以我们还不能消失。"
+    Sanna "如果什么都不存在，仅仅存在就值得吗？"
+    Freya "如果你还在这里，那就在这里。"
+    Sanna angry "骗子。"
+    Sanna "那我呢？"
+    Sanna "如果你不是——"
+    Sanna distraught "Freya，你从来没有害怕过，如果你走出去，就再也回不来了吗？"
     Freya "......"
-    Freya "I don't really think about it."
-    Sanna "After all, the world is ending, isn't it?"
-    Freya "...Don't say that."
+    Freya "我真的没想过。"
+    Sanna "毕竟，世界正在走向终结，不是吗？"
+    Freya "……别这么说。"
 
-    sn "I wasn't surprised, not really, but still I found myself at a loss for words. I had simply wanted her answer to be different, for her to think about it and be scared because I was scared." with Dissolve(0.3)
-    sn "What if Freya really disappeared and never returned?"
-    sn "I couldn't say anything."
-    sn "Silence."
-    sn "All we did was argue, unable to say anything to each other. I I hated it."
+    sn "我并不感到惊讶，也不是真的，但我还是发现自己无话可说。我只是想让她的答案不同，让她想想，因为我害怕而害怕。" with Dissolve(0.3)
+    sn "如果芙蕾雅真的消失了，再也没有回来怎么办？"
+    sn "我什么也说不出来。"
+    sn "沉默."
+    sn "我们只是吵架，什么也说不出来。我讨厌这样。"
     nvl clear 
     nvl hide Dissolve(0.3) 
 
     Freya "*cough*"
-    Sanna "How far did you have to travel today to find anything?"
-    Freya "Not that far."
-    Sanna "Don't bother with those crystals anymore. It's wrong to use them."
-    Sanna "I'm alright even if I disappear, so..."
-    Sanna "Either stop going or stop coming back."
-    "She mumbled something but I couldn't hear it."
+    Sanna "你今天要走多远才能找到任何东西？"
+    Freya "没那么远。"
+    Sanna "别再为那些水晶费心了。使用它们是不对的。"
+    Sanna "即使我消失了，我也很好，所以……"
+    Sanna "要么停止前进，要么停止归来。"
+    "她喃喃自语，但我听不见。"
     Sanna "......"
     Freya "Sanna?"
-    Sanna "What?"
+    Sanna "什么？"
     Freya "...No, it's nothing."
 
-    sn "I knew it wasn't nothing but chose not to pursue her murmur." with Dissolve(0.3)
-    sn "We exchanged no words, only silence. Only a week ago, this would have been extremely out of place between the two of us, but here we were now."
-    sn "I waited for her to say something or leave. What would I even say?"
-    sn "I couldn't see her face, but I could still imagine how she would purse her lips in frustration. I wouldn't forget her even if the world disappeared today, even if I ceased to exist today."
-    sn "Like she said, we were both stubborn."
+    sn "我知道这不是什么，但我选择不去理会她的低语。" with Dissolve(0.3)
+    sn "我们没有说话，只有沉默。就在一周前，这对我们俩来说还非常不合适，但我们现在在这里。"
+    sn "我等着她说点什么或离开。我该说什么呢？"
+    sn "我看不见她的脸，但我仍然可以想象她会沮丧地捂着嘴唇。即使世界今天消失了，即使我今天不复存在，我也不会忘记她。"
+    sn "就像她说的，我们都很固执。"
     nvl clear 
     nvl hide Dissolve(0.3) 
 
 
 
-    Freya "I'll leave this here by the door." with Dissolve(0.3)
-    Freya "Take care of yourself, and make sure you're eating properly, alright?"
-    Sanna "...You too."
-    Freya "Thanks."
+    Freya "我把这个放在门边。" with Dissolve(0.3)
+    Freya "照顾好自己，确保你吃得健康，好吗？"
+    Sanna "...你也是。"
+    Freya "谢谢。"
     Sanna "......"
     Sanna "Freya?"
 
-    sn "She did not respond, as she had already left." with Dissolve(0.3)
-    sn "Freya, my most precious friend, I didn't want her to come, yet I didn't want her to leave."
-    sn "If only I could forget all of the sad memories in this world, then all would be well. Yet I couldn't. Instead, the world around us crumbled to pieces bit by bit."
-    sn "I, who hadn't left this home for a long time, could only look outside to the white that blanketed the town around us. I could no longer remember what hid underneath the snow."
+    sn "她没有回应，因为她已经离开了。" with Dissolve(0.3)
+    sn "Freya，我最珍贵的朋友，我不想让她来，但我不想她离开。"
+    sn "如果我能忘记这个世界上所有的悲伤记忆，那么一切都会好起来的。但我不能。相反，我们周围的世界一点一点地崩溃了。"
+    sn "我已经很久没有离开过这个家了，只能向外看，看到我们周围城镇的白色。我再也不记得雪下藏着什么了。"
     nvl clear 
-    sn "Perhaps, if the snow ever melted, everything beneath would have already faded away."
-    sn "Memories, the world no longer sustained memories. It lost its details, its form, its very shape."
-    sn "Forgotten by those around them, forgetting themselves, one day, without anyone noticing, people too lost their individuality and ceased to exist."
-    sn "Where did they go? Who were they? Had they even existed? All that remained was the gap they left behind and fragments of broken souls."
+    sn "也许，如果雪融化了，下面的一切都会消失。"
+    sn "记忆，世界不再有记忆。它失去了细节、形式和形状"
+    sn "被周围的人遗忘，忘记自己，有一天，在没有人注意到的情况下，人们也失去了个性，不再存在。"
+    sn "他们去了哪里？他们是谁？他们曾经存在过吗？剩下的只有他们留下的缺口和破碎的灵魂碎片。"
     nvl clear 
-    sn "That was the illness plaguing those still left behind."
-    sn "That was mine as well."
-    sn "After a while, I opened my door. As Freya said, she left what she brought by the door. I gingerly picked it up, seeing the food and the so-called medicine."
-    sn "The medicine took the form of a crystal, a small, magical-looking thing."
-    sn "So frail and fragile, just like our memories."
+    sn "那是困扰那些仍然留在后面的人的疾病。"
+    sn "那也是我的。"
+    sn "过了一会儿，我打开门。正如Freya所说，她把带来的东西留在了门口。我小心翼翼地把它捡起来，看到了食物和所谓的药。"
+    sn "这种药呈水晶状，一种看起来很神奇的小东西。"
+    sn "如此脆弱，就像我们的记忆一样。"
     nvl clear 
-    sn "I didn't want her to go out to retrieve these things, but I couldn't hate her for bringing them to me. Instead, I simply shut her away and rejected her."
-    sn "I put the crystal down."
-    sn "I wouldn't take this medicine even if it meant I had to disappear."
-    sn "Closing the door, I returned to my solitude and waited."
+    sn "我不想让她出去取回这些东西，但我不能恨她把它们带给我。相反，我只是把她拒之门外，拒绝了她。"
+    sn "我放下水晶。"
+    sn "即使这意味着我必须消失，我也不会吃这种药。"
+    sn "关上门，我回到孤独中等待。"
     nvl clear 
 
     scene black with fade
 
-    sn "On the next day, no knock came at the door." with Dissolve(0.3)
-    sn "Then, the next day, no knock came at the door."
-    sn "Freya stopped coming back."
+    sn "第二天，没有敲门声。" with Dissolve(0.3)
+    sn "然后，第二天，没有敲门声。"
+    sn "Freya不再回来了。"
     nvl clear 
     nvl hide Dissolve(0.3) 
 
-    Sanna "She's not coming back." with Dissolve(0.3)
-    Sanna "You were the one who told her to leave."
-    Sanna "She chose the crystals over me."
-    Sanna "Maybe she just didn't want to deal with you anymore."
+    Sanna "她不会回来了。" with Dissolve(0.3)
+    Sanna "是你让她离开的。"
+    Sanna "她选择水晶而不是我。"
+    Sanna "也许她只是不想再和你打交道了。"
 
-    sn "Outside, the snow didn't stop. The wind howled like someone was crying or screaming. Bitter hail battered the windows and the roof." with Dissolve(0.3)
-    sn "I couldn't see beyond the turbulent white that blocked out the sun."
-    sn "Inside, all was dark. I felt the cold seeping into my room, into my heart. The heating and insulation of my home still worked fine, but I couldn't find the warmth."
-    sn "Where had the warmth gone? I was cold."
+    sn "外面，雪没有停。风呼啸着，就像有人在哭或尖叫。刺骨的冰雹打在窗户和屋顶上。" with Dissolve(0.3)
+    sn "我看不见挡住太阳的湍流白色。"
+    sn "屋里一片漆黑。我感觉到寒意正渗入我的房间，渗入我的心。我家的供暖和保温仍然很好，但我找不到温暖。"
+    sn "温暖去哪儿了？我冷了。"
     nvl clear 
-    sn "I worried, worried, and worried. Maybe Freya hated me now, but what if she was still outside, what if she had really gotten into trouble... what if something bad happened?"
-    sn "Even as I wallowed, she never returned."
-    sn "I dragged myself to the door, the door to the outside world. Extending my hand to the handle, I couldn't bring myself to open it yet."
-    sn "Thud, thud, went the wind, the snow, and the hail at the door."
-    sn "The outside world was scary."
+    sn "我担心，担心，担心。也许弗雷娅现在恨我，但如果她还在外面，如果她真的遇到了麻烦怎么办……如果发生了什么坏事怎么办？"
+    sn "即使我大打出手，她也再也没有回来。"
+    sn "我把自己拖到门口，那扇门通向外面的世界。我把手伸到把手上，还没来得及打开。"
+    sn "门上的风、雪和冰雹砰砰作响"
+    sn "外面的世界很可怕。"
     nvl clear 
-    sn "Would I simply wait and see? No, that was unacceptable. Even if I were to disappear, at this moment, I still existed. My body still breathed and moved and remembered."
-    sn "To idle about and think of the future when said future might not even exist was such a waste."
-    sn "Throwing away the hesitation called thinking, I threw the door open."
-    sn "Cold flew at my body. I squeezed my eyes shut as the chilling wind and snow went right into my face, stumbling and falling on my butt at the sudden shock."
+    sn "我会只是等着看吗？不，这是不可接受的。即使我消失了，在这一刻，我仍然存在。我的身体仍然在呼吸、移动和记忆。"
+    sn "当说未来可能根本不存在时，无所事事地思考未来是一种浪费。"
+    sn "我扔掉了被称为思考的犹豫，把门打开了。"
+    sn "寒意扑向我的身体。我闭上眼睛，寒风和雪直冲我的脸，在突如其来的冲击下跌跌撞撞地落在我的屁股上。"
     nvl clear 
-    sn "Before I even got a chance to step out, the storm threw the door back shut."
-    sn "I wiped the snow out of my eyes with the sleeves of my now wet shirt. I felt as if I had been given a wake up call. Was I an idiot?"
-    sn "I hadn't even gotten changed."
+    sn "我还没来得及出门，暴风雨就把门关上了。"
+    sn "我用现在湿了的衬衫袖子擦去眼睛里的雪。我觉得自己好像被叫醒了。我是个白痴吗？"
+    sn "我甚至还没换衣服。"
     nvl clear 
-    sn "Taking a slow, deep breath, I calmed myself down and pondered upon what I would do next. For someone who spent her days thinking, surely I could be considered terrible at it."
-    sn "My head was filled with transient clouds, so I once more stopped and decided to go outside, this time with a tad more arrangement."
-    sn "I dug through the closet to find clothes: a sweater, a jacket, proper pants, boots, and all. Lacing my boots with difficulty, I prepared myself to go outside."
-    sn "I returned to the final door between the inside and the outside."
+    sn "我慢慢地深吸一口气，冷静下来，思考下一步该怎么办。对于一个整天都在思考的人来说，我肯定会被认为很糟糕。"
+    sn "我的脑海里充满了短暂的云朵，所以我再次停下来，决定出去，这次有了更多的安排。"
+    sn "我在壁橱里翻找衣服：一件毛衣、一件夹克、一条合适的裤子、靴子等等。我艰难地穿上靴子，准备出门。"
+    sn "我回到了内外之间的最后一扇门。"
     nvl clear 
-    sn "Firmly holding onto the handle, I opened the door slowly against the force of the storm and stepped outside. Then, I closed the door, squinting as the snow battered against me."
-    sn "I couldn't even count how long it had been since I last left my home."
+    sn "我紧紧抓住把手，顶住风暴的力量慢慢打开门，走到外面。然后，我关上门，眯着眼睛看着雪打在我身上。"
+    sn "我甚至数不清我上次离开家已经有多久了。"
     nvl clear 
     nvl hide Dissolve(0.3) 
-    Sanna "Goodbye, home. I promise to come back to you with her."
+    Sanna "再见，回家。我保证会和她一起回到你身边。"
 
-    sn "Waving the door goodbye, I began to walk, wondering if my dear home will still be here by the time I return."
+    sn "挥手告别，我开始走，想知道我亲爱的家在我回来的时候是否还会在这里。"
 
     stop music fadeout(2)
     scene black with fade
@@ -860,48 +860,48 @@ label start:
     call show_snow from _call_show_snow_9
     with flashflash
     nvl clear 
-    sn "As I approached closer to the shapes I saw in the distance, I realised that they were indeed just two buildings... albeit strange looking buildings." with Dissolve(0.3)
-    sn "They had almost no distinct features, just pure black blocks."
-    sn "There were no signs of life anywhere."
-    sn "I cautiously wander inside of the structures, taking my time to slowly check out my surroundings."
+    sn "当我走近远处看到的形状时，我意识到它们确实只是两座建筑……尽管看起来很奇怪。" with Dissolve(0.3)
+    sn "它们几乎没有明显的特征，只有纯黑色的方块。"
+    sn "到处都没有生命的迹象。"
+    sn "我小心翼翼地在建筑内漫步，慢慢地检查周围的环境。"
     nvl clear 
     nvl hide Dissolve(0.3) 
 
-    Sanna "Some sort of... military base?" with Dissolve(0.3)
+    Sanna "某种…军事基地？" with Dissolve(0.3)
 
     scene infacility with fade
 
-    sn "When I entered one of the buildings it was clear that my guess was close, but wrong." with Dissolve(0.3)
-    sn "It was not a military complex, but a research facility."
-    sn "Except... it looked like everyone had gone up and left."
-    sn "The lights were still on, and there was heating."
-    sn "There were some odd-looking computers that were still on and functional."
-    sn "Monitors displaying charts of data that I didn't really comprehend."
+    sn "当我进入其中一栋建筑时，很明显我的猜测很接近，但错了。" with Dissolve(0.3)
+    sn "这不是一个军事综合体，而是一个研究设施。"
+    sn "除了……看起来每个人都走了。"
+    sn "灯还亮着，还有暖气。"
+    sn "有些看起来很奇怪的电脑仍然在运行。"
+    sn "监视器显示我并不真正理解的数据图表。"
     nvl clear 
     nvl hide Dissolve(0.3)
 
 
-    sn "Various research papers were scattered around, as if someone had been frantically looking for something." with Dissolve(0.3)
-    sn "After wandering for a little bit more I stumbled upon a peculiar looking room."
-    sn "It was a room completely surrounded in glass, making easy access to monitor from the outside."
-    sn "The contents of the room itself was bare, all except for a table and something that resembled a tray."
-    sn "It was obvious that there was supposed to be something it was meant to hold but now it was missing."
+    sn "各种研究论文散落一地，仿佛有人一直在疯狂地寻找什么。" with Dissolve(0.3)
+    sn "我又走了一会儿，偶然发现了一个外观奇特的房间。"
+    sn "这是一个完全被玻璃包围的房间，很容易从外面看到监视器。"
+    sn "房间里的东西空空如也，除了一张桌子和一个类似托盘的东西。"
+    sn "很明显，它应该有一些东西，但现在它不见了。"
     nvl clear 
-    sn "I only realized later that there was a hole on the other side of the room, the glass was shattered."
-    sn "Someone had come here and took whatever this place was holding."
-    sn "Something that they weren't supposed to take."
+    sn "后来我才意识到房间的另一边有个洞，玻璃碎了。"
+    sn "有人来到这里，拿走了这个地方的一切。"
+    sn "他们不应该拿走的东西。"
     nvl clear 
-    sn "Everything felt a bit out of place, and suddenly it seemed like I was not supposed to be here."
-    sn "I wanted to leave as soon as possible."
-    sn "I took a deep breath once I was outside of the building complex."
+    sn "一切都有点不合时宜，突然间，我似乎不应该在这里。"
+    sn "我想尽快离开。"
+    sn "我走出建筑群后深吸了一口气。"
     nvl clear 
     nvl hide Dissolve(0.3) 
 
-    Sanna "Freya... where are you?" with Dissolve(0.3)
+    Sanna "Freya... 你在哪里？" with Dissolve(0.3)
 
-    sn "There was only one place left to check, it seemed." with Dissolve(0.3)
-    sn "I took another deep breath and tried to steady my mental state."
-    sn "Then I headed towards the other building."
+    sn "似乎只剩下一个地方可以检查了。" with Dissolve(0.3)
+    sn "我又深吸了一口气，试图稳定我的精神状态。"
+    sn "然后我朝另一栋楼走去。"
     nvl clear 
     nvl hide Dissolve(0.3) 
 
@@ -918,82 +918,82 @@ label start:
 
     show Rfreya concerned at t41
     Freya "......"
-    Freya "(How much longer can I keep this up...?)"
+    Freya "(我还能坚持多久……？)"
     show sanna standing pjs at t44
-    Sanna "Keep what up?"
+    Sanna "继续什么？"
     hide Rfreya
     show freya sweat up guilty at t41
     Freya "...!?"
 
     play music goodbye
 
-    Sanna "...What can't you tell me?"
+    Sanna "……你不能告诉我什么？"
     Freya concerned crossed "......"
-    Sanna sad "Is it something related to me?"
-    Freya "It's not related to you."
+    Sanna sad "这和我有关吗？"
+    Freya "这和你无关。"
 
-    Sanna angry "You're a bad liar, Freya. I've always been able to tell."
+    Sanna angry "弗雷娅，你撒谎不好。我一直都能看出。"
 
-    Freya up guilty "If I said it, even you wouldn't believe me. ...Ah, I've really messed up this time, haven't I?"
+    Freya up guilty "如果我说了，连你都不会相信我……啊，这次我真的搞砸了，不是吗？"
     show freya awkward
-    Sanna "So it's something important."
-    Sanna determined "Related to me? This illness? The medicine you've been bringing me...?"
+    Sanna "所以这很重要。"
+    Sanna determined "跟我有关？这种病？你给我带的药……？"
     Freya crossed concerned "......"
-    Sanna concerned "The last one, huh?"
-    Sanna "Yes, it seems that my third guess was the right one."
-    Freya awkward up "Is there any way I can convince you to not dig any further?"
-    Sanna angry "No, I want to ask you what you've been hiding from me, Freya. What are the crystals you've been bringing me?"
-    Freya serious -sweat up "They're medicine."
-    Sanna "Beyond that."
-    Freya crossed "They're just..."
-    Freya closed concerned "...it's complicated."
-    Sanna "Just tell me."
-    "She breathed a heavy sigh."
-    Freya up serious open "They're the things that people leave behind once they disappear."
-    Freya "It's their leftover essence that eventually congeals into crystal form after a while under the right conditions."
-    Freya "I don't really understand much of it myself but..."
-    Freya crossed "It's like... a part of someone. Their memories. Their color."
-    Sanna frown squint "W-what?"
-    Sanna "I've been..."
+    Sanna concerned "最后一个，嗯？"
+    Sanna "是的，看来我的第三个猜测是正确的。"
+    Freya awkward up "我有什么办法可以说服你不要再挖了吗？"
+    Sanna angry "不，我想问你，你一直在瞒着我什么，芙蕾雅。你给我带的水晶是什么？"
+    Freya serious -sweat up "它们是药。"
+    Sanna "超越这一点。"
+    Freya crossed "他们只是……"
+    Freya closed concerned "……这很复杂。"
+    Sanna "告诉我。"
+    "她深深地叹了一口气。"
+    Freya up serious open "它们是人们消失后留下的东西。"
+    Freya "这是它们剩下的精华，在适当的条件下，一段时间后最终凝结成晶体。"
+    Freya "我自己也不太明白，但是……"
+    Freya crossed "这就像……某人的一部分。他们的记忆。他们的肤色。"
+    Sanna frown squint "什么？"
+    Sanna "我一直……"
 
-    sn "I felt sick. A rolling, undulating feeling in my chest filled me with nausea." with Dissolve(0.3)
-    sn "I felt sick, not because I really felt sick about eating that medicine but because I didn't feel as sick as I thought I would."
-    sn "I felt empty that Freya had lied to me about something this important. I felt empty that I knew I probably could still forgive her."
+    sn "我觉得不舒服。我胸口一阵起伏的感觉让我恶心。" with Dissolve(0.3)
+    sn "我觉得不舒服，不是因为我真的对吃那种药感到恶心，而是因为我没有像我想象的那么恶心。"
+    sn "弗雷娅在这么重要的事情上骗了我，我感到很空虚。我知道我可能仍然可以原谅她，我感到空虚。"
     nvl clear 
     nvl hide Dissolve(0.3) 
 
 
 
-    Sanna open "What have I been consuming?" with Dissolve(0.3)
-    Sanna angry "Why didn't you tell me?"
-    Freya guilty up "I... I know you wouldn't take them if you knew the truth."
-    Sanna "Did you know from the start?"
-    Freya crossed serious "No. Someone told me later on."
-    Sanna "That's a lie."
-    Sanna sad teary "Don't go out to find them anymore, Freya. I won't take the crystals anymore."
+    Sanna open "我一直在吃什么？" with Dissolve(0.3)
+    Sanna angry "你为什么不告诉我？"
+    Freya guilty up "我……我知道如果你知道真相，你就不会接受它们。"
+    Sanna "你从一开始就知道吗？"
+    Freya crossed serious "不，后来有人告诉我的。"
+    Sanna "那是个谎言。"
+    Sanna sad teary "别再出去找它们了，芙蕾雅。我再也不拿水晶了。"
     Freya concerned "...Sanna..."
 
 
 
-    sn "I didn't understand..." with Dissolve(0.3)
-    sn "So complacent and happy just to be with her each day, feeling assured that a miracle had arrived to stop my deterioration, I had been so, so blind."
-    sn "Her image in my eyes became blurred."
-    sn "When had tears flooded my eyes? I was really a crybaby, I thought as my shoulders shook with the anguish I couldn't articulate."
-    sn "She reached out a hand to wipe away my tears, but I took a step back."
+    sn "我不明白..." with Dissolve(0.3)
+    sn "每天和她在一起，我感到如此自满和快乐，确信奇迹已经到来，阻止了我的恶化，我一直如此盲目。"
+    sn "她在我眼中的形象变得模糊了。"
+    sn "什么时候泪水夺眶而出？我真的是个爱哭的孩子，我想，我的肩膀因为无法表达的痛苦而颤抖。"
+    sn "她伸手去擦我的眼泪，但我后退了一步。"
     nvl clear 
-    sn "Roughly rubbing my eyes that just wouldn't stop leaking, I tried to look her in the eye for the last time. I felt as if I were looking at a stranger."
-    sn "The world disappeared. I slowly began to crumble apart. The places we knew, the people we met, the memories we made, all of them had scattered long ago."
-    sn "They turned pure white like the snow outside, so prettily that without thinking, I could almost just embrace it and forget everything."
-    sn "Except it was a painful thing, as painful as the snow was cold and suffocating."
+    sn "我不停地揉着眼睛，最后一次试着看着她的眼睛。我觉得自己好像在看着一个陌生人。"
+    sn "世界消失了。我慢慢地开始崩溃。我们认识的地方，我们遇到的人，我们留下的记忆，都早已消散。"
+    sn "它们变得像外面的雪一样洁白，如此美丽，以至于我几乎可以不假思索地拥抱它，忘记一切。"
+    sn "除了这是一件痛苦的事情，就像雪一样寒冷和令人窒息。"
     nvl clear 
-    sn "Without realizing, the dear and precious bond between us had frayed and turned into something I no longer recognized as if it too wanted to disappear."
-    sn "I didn't want that."
-    sn "I didn't want to lose her."
+    sn "不知不觉，我们之间珍贵的纽带已经磨损，变成了我不再认识的东西，好像它也想消失。"
+    sn "我不想那样。"
+    sn "我不想失去她。"
     nvl clear 
     nvl hide Dissolve(0.3) 
 
     show sanna crying squint sad
-    Sanna "I think you should just go." with Dissolve(0.3)
+    Sanna "我觉得你应该走了。" with Dissolve(0.3)
     Freya up concerned "......"
     Freya crossed sweat closed "......"
     window hide
@@ -1003,27 +1003,27 @@ label start:
 
 
 
-    sn "Thus, I was now alone." with Dissolve(0.3)
-    sn "Even as I reminisced about the past, when I opened my eyes, she wasn't here. Of course she wasn't here. I was the one who chased her away."
-    sn "She came to knock at my door each and every day. I refused to open it for her; I turned her away."
-    sn "Looking out the window, I noticed the snow had started to fall again."
-    sn "The sky darkened. When I went to prepare food and eat, I couldn't help but feel that everything tasted like nothing."
+    sn "因此，我现在独自一人。" with Dissolve(0.3)
+    sn "就在我回忆过去的时候，当我睁开眼睛时，她不在这里。当然她不在。是我把她赶走的。"
+    sn "她每天都来敲我的门。我拒绝为她开门；我把她拒之门外。"
+    sn "我朝窗外望去，发现雪又开始下了。"
+    sn "天空变暗了。当我去准备食物和吃饭时，我忍不住觉得一切都毫无味道。"
     nvl clear 
-    sn "Not strong, not faint, not bland or disgusting, it just tasted like nothing."
-    sn "After the meal, I swallowed some pills dry. Vitamins, supplements, these weren't medicine either. I didn't like the bitter aftertaste of medicine tablets."
-    sn "In the end, medicine was bitter, wasn't it? If not in taste then in essence."
-    sn "My mind wandered to before everything fell apart, but remembering was so terribly difficult as if my past had already crumbled to nothing."
+    sn "不浓，不淡，不平淡或恶心，只是尝起来什么都没有。"
+    sn "饭后，我吞下了一些干药丸。维生素、补充剂，这些也不是药。我不喜欢药片的苦味。"
+    sn "最后，药是苦的，不是吗？如果不是味道，那就是本质。"
+    sn "在一切崩溃之前，我的思绪一直在徘徊，但回忆起来是如此困难，仿佛我的过去已经化为乌有。"
     nvl clear
-    sn "This illness would devour me one day."
-    sn "Should I have asked it to devour me faster?"
-    sn "The snowfall grew heavier and heavier until I couldn't see past the veil of white at my window."
-    sn "I wondered if Freya was alright, if she was outside even as a snowstorm raged. I didn't even know anything outside of my home anymore."
-    sn "I felt like a bird in a cage or perhaps a caterpillar in a chrysalis partially torn open by someone else."
+    sn "这种病总有一天会吞噬我的。"
+    sn "我应该让它更快地吞噬我吗？"
+    sn "雪越下越大，直到我透过窗户的白色面纱看不见了。"
+    sn "我想知道芙蕾雅是否还好，她是否在外面，即使暴风雪肆虐。我甚至对家外的一切都一无所知。"
+    sn "我感觉自己像笼子里的一只鸟，或者可能是被别人部分撕开的蛹中的毛毛虫。"
     nvl clear    
-    sn "I was unable to fly, unable to struggle, trapped in an indescribable shell made by my own self. Maybe I was like a worm that couldn't have become a butterfly to begin with."
-    sn "The outside world was scary. What if there was already nothing there?"
-    sn "Holing up inside, today as well, I waited."
-    sn "I waited."
+    sn "我无法飞翔，无法挣扎，被困在自己做的一个难以形容的壳里。也许我就像一条虫子，一开始就不可能变成蝴蝶。"
+    sn "外面的世界很可怕。如果那里已经什么都没有了怎么办？"
+    sn "今天我也在里面等着。"
+    sn "我等着。"
     nvl clear 
     nvl hide Dissolve(0.3) 
 
@@ -1039,8 +1039,8 @@ label start:
     with fade
 
 
-    sn "The black cube-like building was identical to the other one next to it." with Dissolve(0.3)
-    sn "However, on the inside, it couldn't be any different."
+    sn "黑色立方体状建筑与旁边的另一座建筑完全相同。" with Dissolve(0.3)
+    sn "然而，从内部来看，情况不会有什么不同。"
     nvl clear 
     nvl hide Dissolve(0.3) 
 
@@ -1048,12 +1048,12 @@ label start:
 
     scene crystals with fade
     call delete_snow from _call_delete_snow_8
-    sn "The walls, the floor, the ceiling was all covered in the familiar crystalline substance." with Dissolve(0.3)
-    sn "It was like a growth, flowing everywhere, consuming, eating away at everything it touched."
-    sn "It was everywhere, filling every orifice it could find. Covering every surface it could see."
-    sn "Jagged and sharp edges threatened to cut and shred as I tried to make my way past various structures of crystal formed from the ground."
+    sn "墙壁、地板、天花板都覆盖着熟悉的晶体物质。" with Dissolve(0.3)
+    sn "它就像一种生长，到处流动，消耗，吃掉它所触及的一切。"
+    sn "它无处不在，填满了它能找到的每一个孔口。覆盖了它能看到的每一表面。"
+    sn "当我试图穿过地面形成的各种水晶结构时，锯齿状和锋利的边缘有可能被切割和撕裂。"
     nvl clear 
-    sn "In the middle of the room, there was a figure laying on the ground."
+    sn "在房间的中央，有一个人影躺在地上。"
     nvl clear 
     nvl hide Dissolve(0.3) 
 
@@ -1061,53 +1061,53 @@ label start:
     Sanna "Freya!" with Dissolve(0.3)
     hide sanna with dissolve
 
-    sn "I ran over and kneeled over her." with Dissolve(0.3)
-    sn "She turned to face me."
-    sn "She spoke. Her lips moved, but I couldn't hear her voice. Surely, my ears weren't broken. Her voice did not reach me. Why couldn't I hear her?"
-    sn "I staggered closer to her."
-    sn "...That expression on her face was so..."
-    sn "Painful."
+    sn "我跑过去跪在她身上。" with Dissolve(0.3)
+    sn "她转过身来面对我。"
+    sn "她说话了。她的嘴唇动了动，但我听不见她的声音。当然，我的耳朵没有碎。她的声音我听不到。为什么我听不清她？"
+    sn "我摇摇晃晃地靠近她。"
+    sn "……她脸上的表情太……"
+    sn "痛苦."
     nvl clear
-    sn "For the first time, I noticed that she was fading away too. When had that started? Such a thing wouldn't happen to a person immediately."
-    sn "She placed a hand on my cheek. She was saying something to me. I couldn't feel the warmth of her hand through the glove."
-    sn "Then she kissed me on the lips."
+    sn "我第一次注意到她也在逐渐消失。这是什么时候开始的？这样的事情不会马上发生在一个人身上。"
+    sn "她把手放在我的脸颊上。她在对我说什么。我无法通过手套感受到她的手的温暖。"
+    sn "然后她吻了我的嘴唇。"
     nvl clear
-    sn "Apparently, first kisses tasted sweet like hope, but all I could feel was sour, bitterness."
-    sn "The kiss that lasted for too short a period ended. She broke away from me and spoke, or maybe simply mouthed, to me that precious phrase of 'I love you.'"
-    sn "Love, the love she spoke of was the same type of love I'd been holding inside."
+    sn "显然，初吻尝起来像希望一样甜蜜，但我能感觉到的只有酸涩和苦涩。"
+    sn "持续时间太短的吻结束了。她挣脱了我，对我说，或者只是用嘴说，‘我爱你’这句珍贵的话。"
+    sn "爱，她所说的爱和我内心所持有的爱是一样的。"
     nvl clear 
     nvl hide Dissolve(0.3) 
 
 
-    Sanna "...Tell me that later when we've properly reconciled... when I can properly tell you that my feelings are the same as yours." with Dissolve(0.3)
-    Sanna "Why are you fading away too?"
-    Freya "(I guess even I wasn't immune to it.)"
+    Sanna "……等我们和好了再告诉我……等我能正确地告诉你我的感受和你的一样。" with Dissolve(0.3)
+    Sanna "你为什么也渐渐消失了？"
+    Freya "(我想就连我也不能幸免。)"
     Sanna "......"
-    Freya "(I'm sorry. I never got a chance to apologize.)"
-    Freya "(I shouldn't have lied to you.)"
-    Freya "(I can see you want to say it's alright.)"
-    Freya "(I just... wanted to make things right. Even if how I did it was wrong.)"
-    Freya "(I'm sorry Sanna. I won't do it again, I won't betray your trust anymore.)"
-    Freya "(...Even if not in this lifetime, not in this world anymore.)"
-    Freya "(For the rest of our time here and for if we ever meet again after everything disappears.)"
-    Sanna "I can't hear your voice."
-    Sanna "Don't look as if you're about to disappear!"
-    Sanna "Don't... don't do this to me..."
+    Freya "(对不起。我从来没有机会道歉。)"
+    Freya "(我不该骗你。)"
+    Freya "(我看得出来你想说没关系。)"
+    Freya "(我只是……想把事情做好。即使我做得不对。.)"
+    Freya "(对不起，Sanna。我不会再这样做了，我不会再辜负你的信任了。)"
+    Freya "(……即使不是在今生，也不是在这个世界上。)"
+    Freya "(在我们剩下的时间里，以及在一切消失后我们是否还能再见面。)"
+    Sanna "我听不见你的声音。"
+    Sanna "别看起来好像要消失了！"
+    Sanna "别……别这样对我……"
 
 
-    sn "Even though I knew that she was talking and inexplicably could tell the words she spoke, I still couldn't hear her voice." with Dissolve(0.3)
-    sn "I still remembered. I still remembered that she existed, that she was such an important existence to me. I hadn't forgotten her, so she couldn't fade away yet."
-    sn "Her name? Of course it was-"
-    sn "My mind stalled. She was someone so important to me. I wanted to call out her name again and tell her that I would remember her for her if she herself forgot."
-    sn "I had promised. She had requested it of me."
+    sn "尽管我知道她在说话，而且莫名其妙地能说出她说的话，但我还是听不见她的声音。" with Dissolve(0.3)
+    sn "我仍然记得。我仍然记得她存在，她对我来说是如此重要。我没有忘记她，所以她还没有消失。"
+    sn "她的名字？当然是——"
+    sn "我的思绪停滞不前。她对我来说是一个非常重要的人。我想再喊一次她的名字，告诉她，如果她自己忘记了，我会替她记住她的。"
+    sn "我答应过。她要求我这么做。"
     nvl clear 
-    sn "I grabbed her tightly, my own voice not escaping my throat. She hugged me back. Her hugs were so very firm, so very solid. She was still there."
-    sn "Then, I realized that I was also dissipating."
-    sn "I felt her whisper into my ear, something that I could not hear. She gripped me so tightly that it nearly hurt as if she was also afraid I'd fade away."
+    sn "我紧紧地抱住她，我的声音无法从喉咙里传出。她也拥抱了我。她的拥抱非常坚定，非常坚定。她还在那里。"
+    sn "然后，我意识到我也在消散。"
+    sn "我感觉到她在我耳边低语，我听不见。她紧紧地抓着我，几乎疼得要命，好像她也担心我会消失。"
     nvl clear 
-    sn "Her name, her existence, her everything, how could I forget any of that?"
-    sn "Not now, I wouldn't let her go yet."
-    sn "Even if the world wanted to take her away, it would have to take both of us away at the same time. We promised each other that we would remember each other for each other."
+    sn "她的名字、她的存在、她的一切，我怎么能忘记呢？"
+    sn "现在不行，我还不会让她走的。"
+    sn "即使世界想带走她，也必须同时带走我们俩。我们彼此承诺，我们会永远记住对方。"
     nvl clear 
     nvl hide Dissolve(0.3) 
 
@@ -1115,13 +1115,13 @@ label start:
 
     Sanna "Freya!" with Dissolve(0.3)
     Sanna "You're Freya!"
-    Sanna "You can't... disappear."
-    Sanna "You can't... you--"
+    Sanna "你不能……消失。"
+    Sanna "你不能……你——"
     Freya "Sanna-"
 
-    sn "My vision blurred." with Dissolve(0.3)
-    sn "Finally, I heard her voice."
-    sn "At that moment, my consciousness snapped, and everything turned dark."
+    sn "我的视力模糊。" with Dissolve(0.3)
+    sn "我终于听到了她的声音。"
+    sn "那一刻，我的意识崩溃了，一切都变得黑暗起来。"
     nvl clear 
 
 
@@ -1134,10 +1134,10 @@ label start:
 
 
 
-    sn "I woke up to a familiar ceiling. For a moment, I questioned if I had really rushed out into a snowstorm and reunited with Freya at what seemed like the edge of the world." with Dissolve(0.3)
-    sn "It didn't feel real. Mere fragments of a fever dream or a hallucination."
-    sn "I was afraid that I had only dreamed what happened and she was gone."
-    sn "Sitting up and looking around in a panic, I was flooded with relief. Soon, I drifted off to sleep again. My exhaustion finally caught up to me."
+    sn "我醒来时看到了一个熟悉的天花板。有那么一瞬间，我怀疑自己是否真的冲进了一场暴风雪，在看似世界边缘的地方与Freya重聚。" with Dissolve(0.3)
+    sn "感觉不真实。只是发烧梦或幻觉的碎片。"
+    sn "我担心我只是梦到发生了什么，她走了。"
+    sn "惊恐地坐起来环顾四周，我如释重负。很快，我又睡着了。我的疲惫终于袭来。"
     nvl clear 
     nvl hide Dissolve(0.3) 
 
@@ -1146,88 +1146,88 @@ label start:
     play music calm1
     Freya "Achoo!" with Dissolve(0.3)
     scene cg2 with fade
-    Freya "Being sick sucks."
-    Sanna "You're lucky you're only 'sick'. I really don't know how you dragged us back home."
-    Freya "Isn't there anything that'll make me healthy in a jiffy?"
-    Sanna "I think there's still cold medicine somewhere in the medicine cabinet."
-    Freya "The cherry flavored syrup stuff?"
-    Sanna "No. I think... it's the honey lemon flavored one that tastes like fertilizer."
-    Freya "Is it alright if I say that I don't want to have any of that?"
+    Freya "生病很糟糕。"
+    Sanna "你很幸运，你只是‘生病了’。我真的不知道你是怎么把我们拖回家的。"
+    Freya "难道没有什么能让我在短时间内变得健康吗？"
+    Sanna "我想药柜里还有感冒药。"
+    Freya "樱桃味的糖浆？"
+    Sanna "不，我想……这是蜂蜜柠檬味的，尝起来像肥料。"
+    Freya "我说我不想吃这些，可以吗？"
     Sanna "Pfft."
-    Sanna "Of course. It's healthier for your body to fight off the cold itself than to rely on medicine from the start if it's just a cold."
+    Sanna "当然。如果只是感冒，那么对抗感冒本身比从一开始就依靠药物更健康。"
     Freya "Alas."
-    Freya "Speaking of medicine, the crystals disappeared already, didn't they?"
-    Sanna "Yea, they did."
-    Freya "So fast. Well, it's not like I can find anymore around here anyhow. That's a weird weight off my shoulders."
-    Sanna "...If you find more, you should take them."
+    Freya "说到医学，晶体已经消失了，不是吗？"
+    Sanna "是的，他们做到了。"
+    Freya "太快了。好吧，反正我在这里找不到更多的东西了。我肩上的负担真奇怪。"
+    Sanna "……如果你发现更多，你应该把它们拿走。"
     Freya "Hm?"
-    Sanna "...This might be hypocritical of me, but... if I disappeared and left one behind, I would want for you to keep living, so..."
-    Freya "Geez, don't say that."
-    Freya "That's not to say I don't feel the same way. If I disappeared before you, I would want you to keep living too."
-    Freya "I don't plan to actively go search out the crystals anymore."
-    Freya "As for what would happen if we do stumble upon one, well, I guess we can discuss it when we get there."
-    Sanna "Yea."
-    Sanna "Just one thing. You're not allowed to disappear before me."
-    Freya "Isn't that kind of unfair?"
-    Sanna "Nope."
-    Freya "Alright, then neither of us is allowed to go before the other. That sounds about right, doesn't it?"
-    "I nodded."
-    Freya "So, can you tell me again that you love me?"
-    Sanna "Hm, I love you."
+    Sanna "……这可能是我的虚伪，但是……如果我消失了，留下一个，我希望你能继续活下去，所以……"
+    Freya "天哪，别这么说。"
+    Freya "这并不是说我没有同样的感觉。如果我在你之前消失了，我希望你也能继续活下去。"
+    Freya "我不打算再主动去寻找水晶了。"
+    Freya "至于如果我们偶然发现一个，会发生什么，好吧，我想我们到那里后可以讨论一下。"
+    Sanna "是的。"
+    Sanna "只有一件事。你不能在我面前消失。"
+    Freya "这难道不公平吗？"
+    Sanna "不。"
+    Freya "好吧，那我们俩都不能先走。听起来不错，不是吗？"
+    "我点点头。"
+    Freya "那么，你能再告诉我一次你爱我吗？"
+    Sanna "嗯，我爱你。"
     Freya "Hehe."
-    Sanna "In a romantic way."
-    Freya "I don't know if you said what you like about me, so could you tell me?"
-    Sanna "I love the way that you're kind and caring, the part of you that's sometimes silly but comes through with things in the end. I like how you're positive even when I'm gloomy."
-    Sanna "And you're warm. I love it when you hold my hand. I always feel comfortable when you're by my side."
-    Sanna "Maybe this is strange to say, but I like the timbre of your voice."
-    Sanna "I also like your strength and honest earnestness even when you make mistakes."
-    Sanna "I just love you a lot because you're you. I wish I had told you earlier, so maybe I'm also happy that you were the one who ended up confessing first."
-    Sanna "What do you like about me?"
-    Freya "I like your everything."
-    Freya "Your pretty green eyes, your silky hair, the way you smile, the way you laugh, your slightly cool body temperature, and your delicate fingers."
-    Freya "Your stubborn behavior, the way you're just a little picky about food, how your eyes will just light up when you're happy, and how you'll rely on me when you're sad."
-    Freya "I can naturally keep going. I've been in love with you for a long time. Although I've learned something new recently that I like about you."
-    "She gave me a quick peck on the lips."
-    Freya "The soft taste of your lips."
+    Sanna "以一种浪漫的方式。"
+    Freya "我不知道你是否说过你喜欢我什么，你能告诉我吗？"
+    Sanna "我喜欢你善良和关心的方式，你有时很愚蠢，但最终会克服困难。我喜欢你即使在我沮丧的时候也能保持积极的态度。"
+    Sanna "你很温暖。我喜欢你牵着我的手。你在我身边的时候，我总是感觉很舒服。"
+    Sanna "也许这听起来很奇怪，但我喜欢你的音色。"
+    Sanna "我也喜欢你的力量和诚实的认真，即使你犯了错误。"
+    Sanna "我非常爱你，因为你就是你。我真希望我早点告诉你，所以也许我也很高兴你是第一个忏悔的人。"
+    Sanna "你喜欢我什么？"
+    Freya "我喜欢你的一切。"
+    Freya "你漂亮的绿眼睛，丝滑的头发，你微笑的样子，你笑的样子，稍微凉爽的体温，还有你精致的手指。"
+    Freya "你固执的行为，你对食物有点挑剔，你高兴的时候眼睛会亮起来，你难过的时候会依赖我。"
+    Freya "我自然可以继续下去。我已经爱你很久了。虽然我最近学到了一些我喜欢你的新东西。"
+    "她飞快地吻了我一下嘴唇。"
+    Freya "你嘴唇的柔软味道。"
     Sanna "Y-you tease!"
-    Freya "I love you too."
-    "I playfully smacked her with a pillow and then buried my face in it in embarrassment for a few seconds."
+    Freya "我也爱你。"
+    "我开玩笑地用枕头拍打她，然后尴尬地把脸埋在枕头里几秒钟。"
     stop music fadeout(2)
-    Freya "What should we do from now on?"
+    Freya "从现在开始我们该怎么办？"
     play music ending
-    Sanna "Let's go on the trip we've always been talking about."
-    Freya "Where to?"
-    Sanna "I think we don't need a destination. We never could decide, so maybe it's better if we just head off on the trip and go where our hearts tell us to."
-    Freya "A trip, huh? With the way things are, the only option is a road trip."
-    Freya "The snow will melt, and the roads will be alright to drive on. Yes, I think that's a good idea. As soon as the weather turns better, we can set out on the trip."
-    Freya "Until then, I guess we have to prepare for it and get ourselves ready."
-    Sanna "Do you know how to drive?"
-    Freya "Legally speaking..."
+    Sanna "让我们继续我们一直在谈论的旅行吧。"
+    Freya "去哪里？"
+    Sanna "我认为我们不需要目的地。我们永远无法决定，所以也许我们最好还是出发，去我们内心告诉我们的地方。"
+    Freya "旅行，对吧？照目前的情况，唯一的选择就是公路旅行。"
+    Freya "雪会融化的，道路可以继续行驶。是的，我认为这是个好主意。一旦天气好转，我们就可以出发了。"
+    Freya "在那之前，我想我们必须做好准备，让自己做好准备。"
+    Sanna "你会开车吗？"
+    Freya "从法律上讲……"
     Sanna "Illegally speaking?"
-    Freya "I don't have a license, but I can ride a motorbike just fine."
-    Freya "There should be one in the garage at home. The sidecar is big enough to store quite a bit of supplies."
-    Sanna "I like that idea. A road trip via motorbike."
-    Freya "Right? Doesn't it sound like fun?"
-    Sanna "Yea, it does."
+    Freya "我没有驾照，但我骑摩托车很好。"
+    Freya "家里的车库里应该有一辆。这辆边车足够大，可以存放相当多的物资。"
+    Sanna "我喜欢这个主意。骑摩托车公路旅行。"
+    Freya "对吧？听起来很有趣，不是吗？"
+    Sanna "是的，确实如此。"
 
     scene black with fade
     pause 1
     scene cg3 with Dissolve(3)
     pause 5
 
-    sn "Talking about a trip, we always did that, but actually going on the trip, we had yet to do so." with Dissolve(0.3)
-    sn "If we were to talk about tomorrow, the scarce tomorrows that might not exist anymore after the next today, we wanted to spend that tomorrow together."
-    sn "Rather than staying holed up inside forever, going out together to see what remained of the world was a better way to end it."
-    sn "For all that had disappeared, so much more remained to be seen."
+    sn "说到旅行，我们总是这样做，但实际上去旅行，我们还没有这样做。" with Dissolve(0.3)
+    sn "如果我们谈论明天，那些在下一个今天之后可能不再存在的稀缺的明天，我们想一起度过明天。"
+    sn "与其永远躲在里面，不如一起出去看看世界上剩下的东西，这是结束它的更好方式。"
+    sn "尽管所有这些都消失了，但还有更多的东西有待观察。"
     nvl clear 
-    sn "When spring came, the roads melted. We were still here. Thus, on that road trip we went."
-    sn "Like an item on our long-time bucket list crossed off, we travelled the roads that had crumbled under the pale skies."
-    sn "She showed me all that was beautiful in this world."
-    sn "Eventually both of us would disappear. Like snow that melted away in the spring, we would leave no footprints, not here."
+    sn "春天来了，路都融化了。我们还在这里。因此，在那次公路旅行中，我们去了。"
+    sn "就像我们长期以来的遗愿清单上的一项被划掉一样，我们走过了在苍白的天空下坍塌的道路。"
+    sn "她向我展示了这个世界上所有美丽的东西。"
+    sn "最终我们俩都会消失。就像春天融化的雪一样，我们不会留下足迹，也不会在这里。"
     nvl clear 
-    sn "Yet the impressions we made in each other's hearts wouldn't be erased."
-    sn "The world lost its colors, reverting to a pure white canvas. She and I continued onward in the small but fulfilling journey of our short but precious lives."
-    sn "When I closed my eyes, I simply remembered her and was remembered."
+    sn "然而，我们在彼此心中留下的印象不会被抹去。"
+    sn "世界失去了色彩，回到了一张纯白的画布上。她和我继续在我们短暂而珍贵的生命中，在虽小但充实的旅程中前进。"
+    sn "当我闭上眼睛时，我只是想起了她，被人记住了。"
     nvl clear 
     nvl hide Dissolve(0.3) 
     pause 1
